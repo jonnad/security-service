@@ -7,6 +7,7 @@ import org.springframework.stereotype.Service;
  *
  * Service interface for interacting with user repositories
  *
+ *
  */
 @Service
 public interface UserService {
