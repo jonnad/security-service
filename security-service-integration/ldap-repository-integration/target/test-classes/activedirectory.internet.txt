@@ -1,0 +1,43 @@
+>
+C:\projects\workspaces\security-service\security-service-integration\ldap-repository-integration>nslookup
+Default Server:  usatl-s-dns0002.ventyx.us.abb.com
+Address:  10.66.60.15
+
+> set q=srv
+> _ldap._tcp.dc._msdcs.abb.com
+Server:  usatl-s-dns0002.ventyx.us.abb.com
+Address:  10.66.60.15
+
+_ldap._tcp.dc._msdcs.abb.com    SRV service location:
+          priority       = 0
+          weight         = 100
+          port           = 389
+          svr hostname   = de-s-abb0033.abb.com
+_ldap._tcp.dc._msdcs.abb.com    SRV service location:
+          priority       = 0
+          weight         = 100
+          port           = 389
+          svr hostname   = usfsm-s-abb0066.abb.com
+_ldap._tcp.dc._msdcs.abb.com    SRV service location:
+          priority       = 0
+          weight         = 100
+          port           = 389
+          svr hostname   = sg-s-abb0022.abb.com
+_ldap._tcp.dc._msdcs.abb.com    SRV service location:
+          priority       = 0
+          weight         = 100
+          port           = 389
+          svr hostname   = usgv9-s-abb0077.abb.com
+_ldap._tcp.dc._msdcs.abb.com    SRV service location:
+          priority       = 0
+          weight         = 100
+          port           = 389
+          svr hostname   = usfsm-s-abb0055.abb.com
+_ldap._tcp.dc._msdcs.abb.com    SRV service location:
+          priority       = 0
+          weight         = 100
+          port           = 389
+          svr hostname   = usytp-s-abb0044.abb.com
+>
+
+CN=Jonathan Hamel,OU=Normal,OU=Users,OU=USVEN,OU=US,DC=americas,DC=abb,DC=com
