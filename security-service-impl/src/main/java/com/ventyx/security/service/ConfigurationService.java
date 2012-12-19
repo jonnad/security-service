@@ -19,7 +19,7 @@ public class ConfigurationService {
     ServiceConfigurationService serviceConfigurationService;
 
     @Transactional
-    public void createServiceConfiguration(ServiceDefinition serviceDefinition) throws SecurityServiceException {
+    public void createOrUpdateServiceConfiguration(ServiceDefinition serviceDefinition) throws SecurityServiceException {
 
         if (serviceDefinition == null) {
             throw new SecurityServiceException("A serviceDefinition is required");
@@ -29,10 +29,10 @@ public class ConfigurationService {
             throw new SecurityServiceException("A serviceDefinition name is required");
         }
 
-        serviceConfigurationService.createServiceConfiguration(serviceDefinition);
+        serviceConfigurationService.createOrUpdateServiceConfiguration(serviceDefinition);
     }
 
-    public ServiceDefinition getServiceConfiguration(Long id) throws SecurityServiceException {
+    public ServiceDefinition getServiceConfiguration(Integer id) throws SecurityServiceException {
 
         if (id == null) {
             throw new SecurityServiceException("A serviceDefinition name is required");

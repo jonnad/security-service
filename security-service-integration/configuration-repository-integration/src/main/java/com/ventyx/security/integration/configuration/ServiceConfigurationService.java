@@ -20,11 +20,11 @@ public class ServiceConfigurationService {
     AuthenticationDao authenticationDao;
 
     @Transactional
-    public void createServiceConfiguration(ServiceDefinition serviceDefinition) {
+    public void createOrUpdateServiceConfiguration(ServiceDefinition serviceDefinition) {
         serviceConfigurationDao.saveOrUpdate(serviceDefinition);
     }
 
-    public ServiceDefinition getServiceConfiguration(Long id) {
+    public ServiceDefinition getServiceConfiguration(Integer id) {
         return serviceConfigurationDao.find(id);
     }
 

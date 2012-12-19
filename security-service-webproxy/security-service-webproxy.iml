@@ -74,7 +74,7 @@
     <orderEntry type="library" name="Maven: org.hibernate:hibernate-commons-annotations:3.2.0.Final" level="project" />
     <orderEntry type="library" name="Maven: org.hibernate.javax.persistence:hibernate-jpa-2.0-api:1.0.0.Final" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Maven: cglib:cglib:2.2.2" level="project" />
-    <orderEntry type="library" name="Maven: asm:asm:3.3" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: asm:asm:3.3.1" level="project" />
     <orderEntry type="library" name="Maven: javassist:javassist:3.9.0.GA" level="project" />
     <orderEntry type="module" module-name="security-service-impl" />
     <orderEntry type="module" module-name="configuration-repository-integration" />
@@ -85,18 +85,8 @@
     <orderEntry type="library" name="Maven: mysql:mysql-connector-java:5.1.21" level="project" />
     <orderEntry type="module" module-name="ldap-repository-integration" />
     <orderEntry type="library" name="Maven: com.unboundid:unboundid-ldapsdk:2.3.1" level="project" />
+    <orderEntry type="library" name="Maven: commons-configuration:commons-configuration:1.8" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-context-support:3.1.2.RELEASE" level="project" />
-    <orderEntry type="library" name="Maven: org.apache.struts:struts2-core:2.3.4" level="project" />
-    <orderEntry type="library" name="Maven: org.apache.struts.xwork:xwork-core:2.3.4" level="project" />
-    <orderEntry type="library" name="Maven: org.apache.commons:commons-lang3:3.1" level="project" />
-    <orderEntry type="library" name="Maven: ognl:ognl:3.0.5" level="project" />
-    <orderEntry type="library" name="Maven: asm:asm-commons:3.3" level="project" />
-    <orderEntry type="library" name="Maven: asm:asm-tree:3.3" level="project" />
-    <orderEntry type="library" name="Maven: org.freemarker:freemarker:2.3.19" level="project" />
-    <orderEntry type="library" name="Maven: commons-fileupload:commons-fileupload:1.2.2" level="project" />
-    <orderEntry type="library" name="Maven: commons-io:commons-io:2.0.1" level="project" />
-    <orderEntry type="library" name="Maven: com.sun:tools:1.5.0" level="project" />
-    <orderEntry type="library" name="Maven: org.apache.struts:struts2-config-browser-plugin:2.3.4" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-web:3.1.2.RELEASE" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: javax.servlet:javax.servlet-api:3.0.1" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: rhino:js:1.7R2" level="project" />
@@ -106,6 +96,16 @@
     <orderEntry type="library" name="Maven: org.apache.httpcomponents:httpcore:4.1.2" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.apache.struts:struts2-junit-plugin:2.3.4" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.springframework:spring-test:3.1.2.RELEASE" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.apache.struts:struts2-core:2.3.4" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.apache.struts.xwork:xwork-core:2.3.4" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.apache.commons:commons-lang3:3.1" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: ognl:ognl:3.0.5" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: asm:asm-commons:3.3" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: asm:asm-tree:3.3" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.freemarker:freemarker:2.3.19" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: commons-fileupload:commons-fileupload:1.2.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: commons-io:commons-io:2.0.1" level="project" />
+    <orderEntry type="library" name="Maven: com.sun:tools:1.5.0" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: httpunit:httpunit:1.6" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: xerces:xmlParserAPIs:2.2.1" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: nekohtml:nekohtml:0.9.1" level="project" />

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+        "http://struts.apache.org/dtds/struts-2.3.dtd">
+<struts>
+    <constant name="struts.enable.DynamicMethodInvocation" value="false"/>
+    <constant name="struts.devMode" value="true"/>
+    <constant name="struts.objectFactory" value="org.apache.struts2.spring.StrutsSpringObjectFactory" />
+
+    <package name="admin" namespace="/admin" extends="struts-default">
+
+        <interceptors>
+            <interceptor name="securityInterceptor" class="com.ventyx.security.admin.interceptor.SecurityInterceptor" />
+
+            <interceptor-stack name="secureStack">
+                <interceptor-ref name="servletConfig"/>
+                <interceptor-ref name="params">
+                    <param name="excludeParams">dojo\..*,^struts\..*,^session\..*,^request\..*,^application\..*,^servlet(Request|Response)\..*,parameters\...*</param>
+                </interceptor-ref>
+                <interceptor-ref name="prepare"/>
+                <interceptor-ref name="securityInterceptor"/>
+                <interceptor-ref name="checkbox"/>
+                <interceptor-ref name="exception"/>
+                <interceptor-ref name="alias"/>
+                <interceptor-ref name="i18n"/>
+                <interceptor-ref name="chain"/>
+                <interceptor-ref name="scopedModelDriven"/>
+                <interceptor-ref name="modelDriven"/>
+                <interceptor-ref name="fileUpload"/>
+                <interceptor-ref name="multiselect"/>
+                <interceptor-ref name="staticParams"/>
+                <interceptor-ref name="actionMappingParams"/>
+                <interceptor-ref name="conversionError"/>
+                <interceptor-ref name="validation">
+                    <param name="excludeMethods">input,back,cancel,browse</param>
+                </interceptor-ref>
+                <interceptor-ref name="workflow">
+                    <param name="excludeMethods">input,back,cancel,browse</param>
+                </interceptor-ref>
+            </interceptor-stack>
+        </interceptors>
+
+        <default-interceptor-ref name="secureStack" />
+
+        <default-action-ref name="index" />
+
+        <global-results>
+            <result name="login">/WEB-INF/admin/login.jsp</result>
+            <result name="login-success">/WEB-INF/admin/index.jsp</result>
+        </global-results>
+
+        <action name="index">
+            <result>/WEB-INF/admin/index.jsp</result>
+        </action>
+
+        <action name="list*" method="list" class="com.ventyx.security.admin.action.{1}Action">
+            <result name="list">/WEB-INF/admin/list{1}.jsp</result>
+        </action>
+
+        <action name="edit*" method="edit" class="com.ventyx.security.admin.action.{1}Action">
+            <result name="edit">/WEB-INF/admin/edit{1}.jsp</result>
+        </action>
+
+        <action name="save*" method="save" class="com.ventyx.security.admin.action.{1}Action">
+            <result name="save">/WEB-INF/admin/edit{1}.jsp</result>
+        </action>
+
+    </package>
+
+    <!--
+    <package name="idp" namespace="/ipd" extends="struts-default">
+        <action name="login" class="com.ventyx.security.gateway.action.Login">
+            <result>/example/HelloWorld.jsp</result>
+        </action>
+
+        <action name="Login_*" method="{1}" class="tutorial.example.Login">
+            <result name="input">/example/Login.jsp</result>
+            <result type="redirectAction">Menu</result>
+        </action>
+
+        <action name="*" class="tutorial.example.ExampleSupport">
+            <result>/example/{1}.jsp</result>
+        </action>
+
+         Add additional "example" package actions here.
+
+    </package>
+    -->
+
+</struts>

@@ -1,5 +1,8 @@
 package com.ventyx.security.integration.ldap;
 
+import com.unboundid.ldap.listener.InMemoryDirectoryServer;
+import com.unboundid.ldap.listener.InMemoryDirectoryServerConfig;
+import com.unboundid.ldap.sdk.DN;
 import org.junit.AfterClass;
 import org.junit.BeforeClass;
 import org.junit.Test;
@@ -32,6 +35,10 @@ public class LdapIntegrationServiceTest extends AbstractJUnit4SpringContextTests
     }
 
     public void testGetUser() throws Exception {
+
+    }
+
+    public void setupEmbedded() {
 
     }
 

@@ -83,7 +83,7 @@ public class ServiceDefinition {
         this.userAuthenticationScheme = userAuthenticationScheme;
     }
 
-    @OneToMany(cascade = CascadeType.ALL ,fetch = FetchType.EAGER, mappedBy = "serviceDefinition")
+    @OneToMany(cascade = CascadeType.ALL ,fetch = FetchType.LAZY, mappedBy = "serviceDefinition")
     public List<Endpoint> getEndpoints() {
         return endpoints;
     }

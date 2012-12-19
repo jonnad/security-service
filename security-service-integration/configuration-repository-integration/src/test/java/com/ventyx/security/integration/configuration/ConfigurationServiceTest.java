@@ -26,7 +26,7 @@ public class ConfigurationServiceTest extends AbstractTransactionalJUnit4SpringC
         serviceDefinition.setRequiresUserAuthentication(true);
         serviceDefinition.setSecured(true);
         serviceDefinition.setEnabled(true);
-        serviceConfigurationService.createServiceConfiguration(serviceDefinition);
+        serviceConfigurationService.createOrUpdateServiceConfiguration(serviceDefinition);
 
         logger.info("Here is the iD" + serviceDefinition.getId());
 

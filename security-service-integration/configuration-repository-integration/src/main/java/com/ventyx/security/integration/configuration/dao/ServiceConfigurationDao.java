@@ -32,8 +32,8 @@ public class ServiceConfigurationDao extends HibernateDaoSupport {
         getHibernateTemplate().delete(serviceDefinition);
     }
 
-    public ServiceDefinition find(Long id) {
-        return (ServiceDefinition) getHibernateTemplate().load(ServiceDefinition.class, id);
+    public ServiceDefinition find(Integer id) {
+        return (ServiceDefinition) getHibernateTemplate().get(ServiceDefinition.class, id);
     }
 
     public List findAll() {

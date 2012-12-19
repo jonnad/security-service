@@ -79,7 +79,7 @@ public class TokenService {
 
                 //create a new token and return
                 boolean encode = true;
-                if (tokenGenerationRequest.getTokenFormat().equals(TokenFormat.SAML_PLAIN)) {
+                if (TokenFormat.SAML_PLAIN.equals(tokenGenerationRequest.getTokenFormat())) {
                     encode = false;
                 }
                 String token = TokenGenerator.generateAssertion(tokenGenerationRequest.getApplicationUser(), true, encode);

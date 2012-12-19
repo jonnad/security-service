@@ -59,8 +59,17 @@ public class ProxyServlet extends HttpServlet {
     @Autowired
     ConfigurationService configurationService;
 
+    public void setConfigurationService(ConfigurationService configurationService) {
+        this.configurationService = configurationService;
+    }
+
     @Autowired
     TokenService tokenService;
+
+    public void setTokenService(TokenService tokenService) {
+        this.tokenService = tokenService;
+    }
+
 
     private static final Logger log = LoggerFactory.getLogger(ProxyServlet.class);
 
@@ -117,6 +126,7 @@ public class ProxyServlet extends HttpServlet {
         URI targetUri = null;
 
         if (servletRequest.getRequestURI().toLowerCase().contains("test.html")) {
+            servletResponse.setStatus(HttpServletResponse.SC_OK);
             servletResponse.getWriter().println("<!DOCTYPE html><html><head><title>Test</title></head><body><h1>Proxy is Running</h1><p>Thank you for stopping by!</p></body></html>");
             return;
         }
@@ -269,7 +279,7 @@ public class ProxyServlet extends HttpServlet {
     protected void closeQuietly(Closeable closeable) {
         try {
             closeable.close();
-        } catch (IOException e) {
+        } catch (Exception e) {
             log.trace(e.getMessage(), e);
         }
     }
@@ -298,30 +308,33 @@ public class ProxyServlet extends HttpServlet {
     protected void copyRequestHeaders(HttpServletRequest servletRequest, HttpRequest proxyRequest, URI targetUri) {
         // Get an Enumeration of all of the header names sent by the client
         Enumeration enumerationOfHeaderNames = servletRequest.getHeaderNames();
-        while (enumerationOfHeaderNames.hasMoreElements()) {
-            String headerName = (String) enumerationOfHeaderNames.nextElement();
-            if (headerName.equalsIgnoreCase(HttpHeaders.CONTENT_LENGTH))
-                continue;
-            if (hopByHopHeaders.containsHeader(headerName))
-                continue;
-            // As per the Java Servlet API 2.5 documentation:
-            //		Some headers, such as Accept-Language can be sent by clients
-            //		as several headers each with a different value rather than
-            //		sending the header as a comma separated list.
-            // Thus, we get an Enumeration of the header values sent by the client
-            Enumeration headers = servletRequest.getHeaders(headerName);
-            while (headers.hasMoreElements()) {
-                String headerValue = (String) headers.nextElement();
-                // In case the proxy host is running multiple virtual servers,
-                // rewrite the Host header to ensure that we get content from
-                // the correct virtual server
-                if (headerName.equalsIgnoreCase(HttpHeaders.HOST)) {
-                    HttpHost host = URIUtils.extractHost(targetUri);
-                    headerValue = host.getHostName();
-                    if (host.getPort() != -1)
-                        headerValue += ":" + host.getPort();
+        if (enumerationOfHeaderNames != null) {
+
+            while (enumerationOfHeaderNames.hasMoreElements()) {
+                String headerName = (String) enumerationOfHeaderNames.nextElement();
+                if (headerName.equalsIgnoreCase(HttpHeaders.CONTENT_LENGTH))
+                    continue;
+                if (hopByHopHeaders.containsHeader(headerName))
+                    continue;
+                // As per the Java Servlet API 2.5 documentation:
+                //		Some headers, such as Accept-Language can be sent by clients
+                //		as several headers each with a different value rather than
+                //		sending the header as a comma separated list.
+                // Thus, we get an Enumeration of the header values sent by the client
+                Enumeration headers = servletRequest.getHeaders(headerName);
+                while (headers.hasMoreElements()) {
+                    String headerValue = (String) headers.nextElement();
+                    // In case the proxy host is running multiple virtual servers,
+                    // rewrite the Host header to ensure that we get content from
+                    // the correct virtual server
+                    if (headerName.equalsIgnoreCase(HttpHeaders.HOST)) {
+                        HttpHost host = URIUtils.extractHost(targetUri);
+                        headerValue = host.getHostName();
+                        if (host.getPort() != -1)
+                            headerValue += ":" + host.getPort();
+                    }
+                    proxyRequest.addHeader(headerName, headerValue);
                 }
-                proxyRequest.addHeader(headerName, headerValue);
             }
         }
     }
