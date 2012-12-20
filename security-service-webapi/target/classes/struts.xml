@@ -19,7 +19,6 @@
                 </interceptor-ref>
                 <interceptor-ref name="prepare"/>
                 <interceptor-ref name="securityInterceptor"/>
-                <interceptor-ref name="checkbox"/>
                 <interceptor-ref name="exception"/>
                 <interceptor-ref name="alias"/>
                 <interceptor-ref name="i18n"/>
@@ -37,6 +36,7 @@
                 <interceptor-ref name="workflow">
                     <param name="excludeMethods">input,back,cancel,browse</param>
                 </interceptor-ref>
+                <interceptor-ref name="checkbox"/>
             </interceptor-stack>
         </interceptors>
 
@@ -59,6 +59,10 @@
 
         <action name="edit*" method="edit" class="com.ventyx.security.admin.action.{1}Action">
             <result name="edit">/WEB-INF/admin/edit{1}.jsp</result>
+        </action>
+
+        <action name="create*" method="edit" class="com.ventyx.security.admin.action.{1}Action">
+            <result name="edit">/WEB-INF/admin/create{1}.jsp</result>
         </action>
 
         <action name="save*" method="save" class="com.ventyx.security.admin.action.{1}Action">

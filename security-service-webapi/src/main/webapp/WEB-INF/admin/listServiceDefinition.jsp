@@ -21,7 +21,8 @@
     <display:column property="requiresUserAuthentication"/>
 </display:table>
 
-<s:url action="add"/>
+<INPUT TYPE="button" onClick="parent.location='createServiceDefinition.action'">
+
 
 </body>
 </html>

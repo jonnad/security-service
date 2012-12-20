@@ -9,7 +9,6 @@
 <body>
 <h1>Service Configuration Edit</h1>
 <s:form action="saveServiceDefinition">
-    <s:hidden name="serviceDefinition.id"/>
     <s:textfield label="Name" name="serviceDefinition.name"/>
     <s:textfield label="Description" name="serviceDefinition.description" size="60"/>
 

@@ -12,9 +12,10 @@
     <s:hidden name="serviceDefinition.id"/>
     <s:textfield label="Name" name="serviceDefinition.name"/>
     <s:textfield label="Description" name="serviceDefinition.description" size="60"/>
-    <s:checkbox label="Enabled" name="serviceDefinition.enabled"/>
-    <s:checkbox label="Secured" name="serviceDefinition.secured"/>
-    <s:checkbox label="Requires Authentication" name="serviceDefinition.requiresUserAuthentication"/>
+
+    <s:checkbox label="Enabled" name="enabled" />
+    <s:checkbox label="Requires Security" name="secured" />
+    <s:checkbox label="Requires User Authentication" name="requiresUserAuthentication" />
 
     <s:submit label="Submit" align="left"/>
 </s:form>

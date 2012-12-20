@@ -19,6 +19,12 @@ public class ServiceDefinitionAction extends ActionSupport {
     public static final String LIST = "list";
     public static final String EDIT = "edit";
     public static final String SAVE = "save";
+    public static final String CREATE = "create";
+
+    //transient fields for booleans (bean methods fail for some reason)
+    private boolean enabled = false;
+    private boolean secured = false;
+    private boolean requiresUserAuthentication = false;
 
     @Autowired
     ConfigurationService configurationService;
@@ -37,6 +43,9 @@ public class ServiceDefinitionAction extends ActionSupport {
     public String edit() {
         try {
             this.serviceDefinition = configurationService.getServiceConfiguration(serviceDefinitionId);
+            this.setEnabled(serviceDefinition.isEnabled());
+            this.setSecured(serviceDefinition.isSecured());
+            this.setRequiresUserAuthentication(serviceDefinition.isRequiresUserAuthentication());
         } catch (SecurityServiceException ex) {
             ex.printStackTrace();
         }
@@ -44,8 +53,16 @@ public class ServiceDefinitionAction extends ActionSupport {
         return EDIT;
     }
 
+    public String create() {
+        return CREATE;
+    }
+
     public String save() {
         try {
+            serviceDefinition.setEnabled(this.enabled);
+            serviceDefinition.setSecured(this.secured);
+            serviceDefinition.setRequiresUserAuthentication(this.requiresUserAuthentication);
+
             configurationService.createOrUpdateServiceConfiguration(this.serviceDefinition);
         } catch (SecurityServiceException ex) {
             ex.printStackTrace();
@@ -76,5 +93,29 @@ public class ServiceDefinitionAction extends ActionSupport {
 
     public void setServiceDefinitionId(Integer serviceDefinitionId) {
         this.serviceDefinitionId = serviceDefinitionId;
+    }
+
+    public boolean isEnabled() {
+        return enabled;
+    }
+
+    public void setEnabled(boolean enabled) {
+        this.enabled = enabled;
+    }
+
+    public boolean isSecured() {
+        return secured;
+    }
+
+    public void setSecured(boolean secured) {
+        this.secured = secured;
+    }
+
+    public boolean isRequiresUserAuthentication() {
+        return requiresUserAuthentication;
+    }
+
+    public void setRequiresUserAuthentication(boolean requiresUserAuthentication) {
+        this.requiresUserAuthentication = requiresUserAuthentication;
     }
 }
