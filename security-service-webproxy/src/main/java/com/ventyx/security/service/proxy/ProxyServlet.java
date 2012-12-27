@@ -1,6 +1,6 @@
 package com.ventyx.security.service.proxy;
 
-import com.ventyx.security.api.model.ServiceDefinition;
+import com.ventyx.security.api.model.ServiceConfiguration;
 import com.ventyx.security.api.model.Endpoint;
 import com.ventyx.security.service.ConfigurationService;
 import com.ventyx.security.service.TokenService;
@@ -133,24 +133,24 @@ public class ProxyServlet extends HttpServlet {
 
         try {
 
-            List<ServiceDefinition> serviceDefinitions = configurationService.getServiceConfigurations();
+            List<ServiceConfiguration> serviceConfigurations = configurationService.getServiceConfigurations();
 
             //iterate through all of the proxy endpoints
-            if (serviceDefinitions != null && !serviceDefinitions.isEmpty()) {
+            if (serviceConfigurations != null && !serviceConfigurations.isEmpty()) {
 
                 //note that configurations can have multiple endpoints
-                for (ServiceDefinition serviceDefinition : serviceDefinitions) {
+                for (ServiceConfiguration serviceConfiguration : serviceConfigurations) {
 
-                    if (serviceDefinition.isEnabled()) {
+                    if (serviceConfiguration.isEnabled()) {
 
-                        if (serviceDefinition.getEndpoints() != null) {
-                            for (Endpoint endpoint : serviceDefinition.getEndpoints()) {
+                        if (serviceConfiguration.getEndpoints() != null) {
+                            for (Endpoint endpoint : serviceConfiguration.getEndpoints()) {
                                 if (servletRequest.getRequestURI().toLowerCase().contains(endpoint.getServiceUri())) {
                                     //we are only proxying the server/host
                                     targetUri = new URI(endpoint.getServiceHost() + ":" + endpoint.getServicePort() + servletRequest.getRequestURI());
 
                                     // check for the security header/token somewhere in the message
-                                    if (serviceDefinition.isSecured() &&
+                                    if (serviceConfiguration.isSecured() &&
                                             (servletRequest.getHeader(SECURITY_TOKEN_IDENTIFIER) == null || servletRequest.getHeader(SECURITY_TOKEN_IDENTIFIER).isEmpty())) {
                                         log.error("Unsecured access to URI/URL " + servletRequest.getRequestURL());
                                         servletResponse.setStatus(HttpServletResponse.SC_FORBIDDEN);

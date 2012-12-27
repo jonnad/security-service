@@ -1,9 +1,9 @@
 package com.ventyx.security.service;
 
 import com.ventyx.security.api.model.Authentication;
-import com.ventyx.security.api.model.ServiceDefinition;
+import com.ventyx.security.api.model.ServiceConfiguration;
 import com.ventyx.security.exception.SecurityServiceException;
-import com.ventyx.security.integration.configuration.ServiceConfigurationService;
+import com.ventyx.security.integration.configuration.ServiceConfigurationIntegrationService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Service;
@@ -16,36 +16,36 @@ import java.util.List;
 public class ConfigurationService {
 
     @Autowired
-    ServiceConfigurationService serviceConfigurationService;
+    ServiceConfigurationIntegrationService serviceConfigurationIntegrationService;
 
     @Transactional
-    public void createOrUpdateServiceConfiguration(ServiceDefinition serviceDefinition) throws SecurityServiceException {
+    public void createOrUpdateServiceConfiguration(ServiceConfiguration serviceConfiguration) throws SecurityServiceException {
 
-        if (serviceDefinition == null) {
-            throw new SecurityServiceException("A serviceDefinition is required");
+        if (serviceConfiguration == null) {
+            throw new SecurityServiceException("A serviceConfiguration is required");
         }
 
-        if (serviceDefinition.getName() == null) {
-            throw new SecurityServiceException("A serviceDefinition name is required");
+        if (serviceConfiguration.getName() == null) {
+            throw new SecurityServiceException("A serviceConfiguration name is required");
         }
 
-        serviceConfigurationService.createOrUpdateServiceConfiguration(serviceDefinition);
+        serviceConfigurationIntegrationService.createOrUpdateServiceConfiguration(serviceConfiguration);
     }
 
-    public ServiceDefinition getServiceConfiguration(Integer id) throws SecurityServiceException {
+    public ServiceConfiguration getServiceConfiguration(Integer id) throws SecurityServiceException {
 
         if (id == null) {
-            throw new SecurityServiceException("A serviceDefinition name is required");
+            throw new SecurityServiceException("A serviceConfiguration name is required");
         }
-        return serviceConfigurationService.getServiceConfiguration(id);
+        return serviceConfigurationIntegrationService.getServiceConfiguration(id);
     }
 
-    public List<ServiceDefinition> getServiceConfigurations() {
-        return serviceConfigurationService.getServiceConfigurations();
+    public List<ServiceConfiguration> getServiceConfigurations() {
+        return serviceConfigurationIntegrationService.getServiceConfigurations();
     }
 
     public Authentication getAuthentication(String applicationUser) {
-        return serviceConfigurationService.getAuthentication(applicationUser);
+        return serviceConfigurationIntegrationService.getAuthentication(applicationUser);
     }
 
 

@@ -38,10 +38,10 @@ public class SecurityServiceRestImpl implements SecurityService {
     }
 
     public boolean invalidateToken(String tokenId) {
-        return false;  //To change body of implemented methods use File | Settings | File Templates.
+        return tokenService.invalidateToken(tokenId);
     }
 
     public boolean validateToken(String token) {
-        return false;  //To change body of implemented methods use File | Settings | File Templates.
+        return tokenService.validateToken(token);
     }
 }

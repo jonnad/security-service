@@ -5,10 +5,10 @@
       <path-set>
         <pathsSet class="linked-hash-set">
           <string>WEB-INF/web.xml</string>
-          <string>WEB-INF/classes/com/ventyx/security/sampleservices/http/BusinessServlet.class</string>
-          <string>WEB-INF/classes/com/ventyx/security/sampleservices/rest/BusinessRestService.class</string>
-          <string>WEB-INF/classes/com/ventyx/security/sampleservices/soap/BusinessSoapService.class</string>
-          <string>WEB-INF/classes/com/ventyx/security/sampleservices/soap/BusinessSoapServiceImpl.class</string>
+          <string>WEB-INF/classes/com/ventyx/security/webservice/http/BusinessServlet.class</string>
+          <string>WEB-INF/classes/com/ventyx/security/webservice/rest/BusinessRestService.class</string>
+          <string>WEB-INF/classes/com/ventyx/security/webservice/soap/BusinessSoapService.class</string>
+          <string>WEB-INF/classes/com/ventyx/security/webservice/soap/BusinessSoapServiceImpl.class</string>
           <string>WEB-INF/classes/spring/security-service-sample-services-context.xml</string>
           <string>WEB-INF/lib/security-service-commons-1.0-SNAPSHOT.jar</string>
           <string>WEB-INF/lib/opensaml-2.5.1-1.jar</string>
@@ -63,6 +63,7 @@
           <string>WEB-INF/lib/mysql-connector-java-5.1.21.jar</string>
           <string>WEB-INF/lib/ldap-repository-integration-1.0-SNAPSHOT.jar</string>
           <string>WEB-INF/lib/unboundid-ldapsdk-2.3.1.jar</string>
+          <string>WEB-INF/lib/commons-configuration-1.8.jar</string>
           <string>WEB-INF/lib/spring-context-support-3.1.2.RELEASE.jar</string>
           <string>WEB-INF/lib/cxf-rt-frontend-jaxrs-2.7.0.jar</string>
           <string>WEB-INF/lib/cxf-api-2.7.0.jar</string>

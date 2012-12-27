@@ -2,11 +2,127 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="45be2244-758e-4f8f-bf01-28bf994eab8c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/security-service-webapi/src/main/webapp/WEB-INF/admin/createServiceDefinition.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/security-service-webapi/src/main/java/com/ventyx/security/admin/action/ServiceDefinitionAction.java" afterPath="$PROJECT_DIR$/security-service-webapi/src/main/java/com/ventyx/security/admin/action/ServiceDefinitionAction.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/security-service-webapi/src/main/resources/struts.xml" afterPath="$PROJECT_DIR$/security-service-webapi/src/main/resources/struts.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/security-service-webapi/src/main/webapp/WEB-INF/admin/editServiceDefinition.jsp" afterPath="$PROJECT_DIR$/security-service-webapi/src/main/webapp/WEB-INF/admin/editServiceDefinition.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/security-service-webapi/src/main/webapp/WEB-INF/admin/listServiceDefinition.jsp" afterPath="$PROJECT_DIR$/security-service-webapi/src/main/webapp/WEB-INF/admin/listServiceDefinition.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/security-service-integration/configuration-repository-integration/src/main/java/com/ventyx/security/integration/configuration/ServiceConfigurationIntegrationService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/security-service-integration/configuration-repository-integration/src/main/java/com/ventyx/security/integration/configuration/dao/TokenDao.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/security-service-integration/configuration-repository-integration/src/test/java/com/ventyx/security/integration/configuration/ServiceConfigurationIntegrationServiceTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/security-service-webapi/src/main/resources/log4j.xml" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-commons\target\classes\com\ventyx\security\api\model\ServiceDefinition$UserAuthenticationScheme.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-commons\target\classes\com\ventyx\security\api\model\ServiceDefinition.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-integration\configuration-repository-integration\target\classes\com\ventyx\security\integration\configuration\ServiceConfigurationService.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-integration\configuration-repository-integration\target\classes\com\ventyx\security\integration\configuration\UserService.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-integration\configuration-repository-integration\target\test-classes\com\ventyx\security\integration\configuration\ConfigurationServiceTest.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-sampleservices\target\classes\com\ventyx\security\sampleservices\http\BusinessServlet.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-sampleservices\target\classes\com\ventyx\security\sampleservices\rest\BusinessRestService.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-sampleservices\target\classes\com\ventyx\security\sampleservices\soap\BusinessSoapService.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-sampleservices\target\classes\com\ventyx\security\sampleservices\soap\BusinessSoapServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-sampleservices\target\sampleservices\WEB-INF\classes\com\ventyx\security\sampleservices\http\BusinessServlet.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-sampleservices\target\sampleservices\WEB-INF\classes\com\ventyx\security\sampleservices\rest\BusinessRestService.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-sampleservices\target\sampleservices\WEB-INF\classes\com\ventyx\security\sampleservices\soap\BusinessSoapService.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-sampleservices\target\sampleservices\WEB-INF\classes\com\ventyx\security\sampleservices\soap\BusinessSoapServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webapi\target\ROOT\WEB-INF\admin\createServiceDefinition.jsp" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webapi\target\ROOT\WEB-INF\admin\editServiceDefinition.jsp" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webapi\target\ROOT\WEB-INF\admin\listServiceDefinition.jsp" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webapi\target\ROOT\WEB-INF\classes\com\ventyx\security\admin\action\ServiceDefinitionAction.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webapi\target\ROOT\WEB-INF\classes\com\ventyx\security\sampleservices\SecurityService.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webapi\target\ROOT\WEB-INF\classes\com\ventyx\security\sampleservices\rest\SecurityServiceRestImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webapi\target\ROOT\WEB-INF\classes\com\ventyx\security\sampleservices\soap\SecurityServiceSoapImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webapi\target\classes\com\ventyx\security\admin\action\ServiceDefinitionAction.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webapi\target\classes\com\ventyx\security\sampleservices\SecurityService.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webapi\target\classes\com\ventyx\security\sampleservices\rest\SecurityServiceRestImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webapi\target\classes\com\ventyx\security\sampleservices\soap\SecurityServiceSoapImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webproxy\target\webproxy\META-INF\MANIFEST.MF" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webproxy\target\webproxy\META-INF\maven\com.ventyx\security-service-webproxy\pom.properties" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webproxy\target\webproxy\META-INF\maven\com.ventyx\security-service-webproxy\pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webproxy\target\webproxy\WEB-INF\lib\asm-3.3.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webproxy\target\webproxy\WEB-INF\lib\asm-commons-3.3.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webproxy\target\webproxy\WEB-INF\lib\asm-tree-3.3.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webproxy\target\webproxy\WEB-INF\lib\commons-fileupload-1.2.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webproxy\target\webproxy\WEB-INF\lib\commons-io-2.0.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webproxy\target\webproxy\WEB-INF\lib\commons-lang3-3.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webproxy\target\webproxy\WEB-INF\lib\freemarker-2.3.19.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webproxy\target\webproxy\WEB-INF\lib\ognl-3.0.5.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webproxy\target\webproxy\WEB-INF\lib\struts2-config-browser-plugin-2.3.4.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webproxy\target\webproxy\WEB-INF\lib\struts2-core-2.3.4.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webproxy\target\webproxy\WEB-INF\lib\xwork-core-2.3.4.jar" afterPath="" />
+      <change type="MOVED" beforePath="C:\projects\workspaces\security-service\security-service-commons\src\main\java\com\ventyx\security\api\model\ServiceDefinition.java" afterPath="$PROJECT_DIR$/security-service-commons/src/main/java/com/ventyx/security/api/model/ServiceConfiguration.java" />
+      <change type="MOVED" beforePath="C:\projects\workspaces\security-service\security-service-integration\configuration-repository-integration\src\main\java\com\ventyx\security\integration\configuration\ServiceConfigurationService.java" afterPath="$PROJECT_DIR$/security-service-integration/configuration-repository-integration/src/main/java/com/ventyx/security/integration/configuration/TokenIntegrationService.java" />
+      <change type="MOVED" beforePath="C:\projects\workspaces\security-service\security-service-integration\configuration-repository-integration\src\main\java\com\ventyx\security\integration\configuration\UserService.java" afterPath="$PROJECT_DIR$/security-service-integration/configuration-repository-integration/src/main/java/com/ventyx/security/integration/configuration/UserIntegrationService.java" />
+      <change type="MOVED" beforePath="C:\projects\workspaces\security-service\security-service-integration\configuration-repository-integration\src\test\java\com\ventyx\security\integration\configuration\ConfigurationServiceTest.java" afterPath="$PROJECT_DIR$/security-service-integration/configuration-repository-integration/src/test/java/com/ventyx/security/integration/configuration/TokenIntegrationServiceTest.java" />
+      <change type="MOVED" beforePath="C:\projects\workspaces\security-service\security-service-webapi\src\main\java\com\ventyx\security\admin\action\ServiceDefinitionAction.java" afterPath="$PROJECT_DIR$/security-service-webapi/src/main/java/com/ventyx/security/admin/action/ServiceConfigurationAction.java" />
+      <change type="MOVED" beforePath="C:\projects\workspaces\security-service\security-service-webapi\src\main\webapp\WEB-INF\admin\createServiceDefinition.jsp" afterPath="$PROJECT_DIR$/security-service-webapi/src/main/webapp/WEB-INF/admin/createServiceConfiguration.jsp" />
+      <change type="MOVED" beforePath="C:\projects\workspaces\security-service\security-service-webapi\src\main\webapp\WEB-INF\admin\editServiceDefinition.jsp" afterPath="$PROJECT_DIR$/security-service-webapi/src/main/webapp/WEB-INF/admin/editServiceConfiguration.jsp" />
+      <change type="MOVED" beforePath="C:\projects\workspaces\security-service\security-service-webapi\src\main\webapp\WEB-INF\admin\listServiceDefinition.jsp" afterPath="$PROJECT_DIR$/security-service-webapi/src/main/webapp/WEB-INF/admin/listServiceConfiguration.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/security-service-commons/target/classes/com/ventyx/security/api/TokenGenerationResponse.class" afterPath="$PROJECT_DIR$/security-service-commons/target/classes/com/ventyx/security/api/TokenGenerationResponse.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/security-service-commons/target/classes/com/ventyx/security/api/model/Authentication.class" afterPath="$PROJECT_DIR$/security-service-commons/target/classes/com/ventyx/security/api/model/Authentication.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/security-service-commons/target/classes/com/ventyx/security/api/model/Endpoint.class" afterPath="$PROJECT_DIR$/security-service-commons/target/classes/com/ventyx/security/api/model/Endpoint.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/security-service-commons/target/classes/com/ventyx/security/api/model/Token.class" afterPath="$PROJECT_DIR$/security-service-commons/target/classes/com/ventyx/security/api/model/Token.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/security-service-commons/target/classes/com/ventyx/security/utils/TokenGenerator.class" afterPath="$PROJECT_DIR$/security-service-commons/target/classes/com/ventyx/security/utils/TokenGenerator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/security-service-commons/target/security-service-commons-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/security-service-commons/target/security-service-commons-1.0-SNAPSHOT.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/security-service-impl/target/classes/com/ventyx/security/service/ConfigurationService.class" afterPath="$PROJECT_DIR$/security-service-impl/target/classes/com/ventyx/security/service/ConfigurationService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/security-service-impl/target/classes/com/ventyx/security/service/TokenService.class" afterPath="$PROJECT_DIR$/security-service-impl/target/classes/com/ventyx/security/service/TokenService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/security-service-impl/target/security-service-impl-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/security-service-impl/target/security-service-impl-1.0-SNAPSHOT.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/security-service-impl/target/test-classes/com/ventyx/security/service/TokenServiceTest.class" afterPath="$PROJECT_DIR$/security-service-impl/target/test-classes/com/ventyx/security/service/TokenServiceTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/security-service-integration/configuration-repository-integration/target/classes/com/ventyx/security/integration/configuration/dao/ServiceConfigurationDao.class" afterPath="$PROJECT_DIR$/security-service-integration/configuration-repository-integration/target/classes/com/ventyx/security/integration/configuration/dao/ServiceConfigurationDao.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/security-service-integration/configuration-repository-integration/target/configuration-repository-integration-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/security-service-integration/configuration-repository-integration/target/configuration-repository-integration-1.0-SNAPSHOT.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/security-service-integration/ldap-repository-integration/target/ldap-repository-integration-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/security-service-integration/ldap-repository-integration/target/ldap-repository-integration-1.0-SNAPSHOT.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/security-service-integration/ldap-repository-integration/target/test-classes/com/ventyx/security/integration/ldap/LdapIntegrationServiceTest.class" afterPath="$PROJECT_DIR$/security-service-integration/ldap-repository-integration/target/test-classes/com/ventyx/security/integration/ldap/LdapIntegrationServiceTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/security-service-sampleservices/target/sampleservices.war" afterPath="$PROJECT_DIR$/security-service-sampleservices/target/sampleservices.war" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/security-service-sampleservices/target/sampleservices/WEB-INF/lib/configuration-repository-integration-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/security-service-sampleservices/target/sampleservices/WEB-INF/lib/configuration-repository-integration-1.0-SNAPSHOT.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/security-service-sampleservices/target/sampleservices/WEB-INF/lib/ldap-repository-integration-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/security-service-sampleservices/target/sampleservices/WEB-INF/lib/ldap-repository-integration-1.0-SNAPSHOT.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/security-service-sampleservices/target/sampleservices/WEB-INF/lib/security-service-commons-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/security-service-sampleservices/target/sampleservices/WEB-INF/lib/security-service-commons-1.0-SNAPSHOT.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/security-service-sampleservices/target/sampleservices/WEB-INF/lib/security-service-impl-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/security-service-sampleservices/target/sampleservices/WEB-INF/lib/security-service-impl-1.0-SNAPSHOT.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/security-service-webapi/target/ROOT.war" afterPath="$PROJECT_DIR$/security-service-webapi/target/ROOT.war" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/security-service-webapi/target/ROOT/WEB-INF/classes/com/ventyx/security/webservice/rest/SecurityServiceRestImpl.class" afterPath="$PROJECT_DIR$/security-service-webapi/target/ROOT/WEB-INF/classes/com/ventyx/security/webservice/rest/SecurityServiceRestImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/security-service-webapi/target/ROOT/WEB-INF/lib/configuration-repository-integration-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/security-service-webapi/target/ROOT/WEB-INF/lib/configuration-repository-integration-1.0-SNAPSHOT.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/security-service-webapi/target/ROOT/WEB-INF/lib/ldap-repository-integration-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/security-service-webapi/target/ROOT/WEB-INF/lib/ldap-repository-integration-1.0-SNAPSHOT.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/security-service-webapi/target/ROOT/WEB-INF/lib/security-service-commons-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/security-service-webapi/target/ROOT/WEB-INF/lib/security-service-commons-1.0-SNAPSHOT.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/security-service-webapi/target/ROOT/WEB-INF/lib/security-service-impl-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/security-service-webapi/target/ROOT/WEB-INF/lib/security-service-impl-1.0-SNAPSHOT.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/security-service-webapi/target/classes/com/ventyx/security/webservice/rest/SecurityServiceRestImpl.class" afterPath="$PROJECT_DIR$/security-service-webapi/target/classes/com/ventyx/security/webservice/rest/SecurityServiceRestImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/security-service-webproxy/target/classes/com/ventyx/security/service/proxy/ProxyServlet.class" afterPath="$PROJECT_DIR$/security-service-webproxy/target/classes/com/ventyx/security/service/proxy/ProxyServlet.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/security-service-webproxy/target/test-classes/com/ventyx/security/service/proxy/ProxyServletTest.class" afterPath="$PROJECT_DIR$/security-service-webproxy/target/test-classes/com/ventyx/security/service/proxy/ProxyServletTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/security-service-webproxy/target/webproxy.war" afterPath="$PROJECT_DIR$/security-service-webproxy/target/webproxy.war" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/security-service-webproxy/target/webproxy/WEB-INF/classes/com/ventyx/security/service/proxy/ProxyServlet.class" afterPath="$PROJECT_DIR$/security-service-webproxy/target/webproxy/WEB-INF/classes/com/ventyx/security/service/proxy/ProxyServlet.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/security-service-webproxy/target/webproxy/WEB-INF/lib/configuration-repository-integration-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/security-service-webproxy/target/webproxy/WEB-INF/lib/configuration-repository-integration-1.0-SNAPSHOT.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/security-service-webproxy/target/webproxy/WEB-INF/lib/ldap-repository-integration-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/security-service-webproxy/target/webproxy/WEB-INF/lib/ldap-repository-integration-1.0-SNAPSHOT.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/security-service-webproxy/target/webproxy/WEB-INF/lib/security-service-commons-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/security-service-webproxy/target/webproxy/WEB-INF/lib/security-service-commons-1.0-SNAPSHOT.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/security-service-webproxy/target/webproxy/WEB-INF/lib/security-service-impl-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/security-service-webproxy/target/webproxy/WEB-INF/lib/security-service-impl-1.0-SNAPSHOT.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/security-service-commons/src/main/java/com/ventyx/security/api/TokenGenerationResponse.java" afterPath="$PROJECT_DIR$/security-service-commons/src/main/java/com/ventyx/security/api/TokenGenerationResponse.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/security-service-commons/src/main/java/com/ventyx/security/api/model/Authentication.java" afterPath="$PROJECT_DIR$/security-service-commons/src/main/java/com/ventyx/security/api/model/Authentication.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/security-service-commons/src/main/java/com/ventyx/security/api/model/Endpoint.java" afterPath="$PROJECT_DIR$/security-service-commons/src/main/java/com/ventyx/security/api/model/Endpoint.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/security-service-commons/src/main/java/com/ventyx/security/api/model/Token.java" afterPath="$PROJECT_DIR$/security-service-commons/src/main/java/com/ventyx/security/api/model/Token.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/security-service-commons/src/main/java/com/ventyx/security/utils/TokenGenerator.java" afterPath="$PROJECT_DIR$/security-service-commons/src/main/java/com/ventyx/security/utils/TokenGenerator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/security-service-commons/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/security-service-commons/target/maven-archiver/pom.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/security-service-impl/security-service-impl.iml" afterPath="$PROJECT_DIR$/security-service-impl/security-service-impl.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/security-service-impl/src/main/java/com/ventyx/security/service/ConfigurationService.java" afterPath="$PROJECT_DIR$/security-service-impl/src/main/java/com/ventyx/security/service/ConfigurationService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/security-service-impl/src/main/java/com/ventyx/security/service/TokenService.java" afterPath="$PROJECT_DIR$/security-service-impl/src/main/java/com/ventyx/security/service/TokenService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/security-service-impl/src/test/java/com/ventyx/security/service/TokenServiceTest.java" afterPath="$PROJECT_DIR$/security-service-impl/src/test/java/com/ventyx/security/service/TokenServiceTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/security-service-impl/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/security-service-impl/target/maven-archiver/pom.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/security-service-integration/configuration-repository-integration/src/main/java/com/ventyx/security/integration/configuration/dao/ServiceConfigurationDao.java" afterPath="$PROJECT_DIR$/security-service-integration/configuration-repository-integration/src/main/java/com/ventyx/security/integration/configuration/dao/ServiceConfigurationDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/security-service-integration/configuration-repository-integration/src/main/resources/spring/configuration-repository-integration-context.xml" afterPath="$PROJECT_DIR$/security-service-integration/configuration-repository-integration/src/main/resources/spring/configuration-repository-integration-context.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/security-service-integration/configuration-repository-integration/target/classes/spring/configuration-repository-integration-context.xml" afterPath="$PROJECT_DIR$/security-service-integration/configuration-repository-integration/target/classes/spring/configuration-repository-integration-context.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/security-service-integration/configuration-repository-integration/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/security-service-integration/configuration-repository-integration/target/maven-archiver/pom.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/security-service-integration/ldap-repository-integration/ldap-repository-integration.iml" afterPath="$PROJECT_DIR$/security-service-integration/ldap-repository-integration/ldap-repository-integration.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/security-service-integration/ldap-repository-integration/src/test/java/com/ventyx/security/integration/ldap/LdapIntegrationServiceTest.java" afterPath="$PROJECT_DIR$/security-service-integration/ldap-repository-integration/src/test/java/com/ventyx/security/integration/ldap/LdapIntegrationServiceTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/security-service-integration/ldap-repository-integration/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/security-service-integration/ldap-repository-integration/target/maven-archiver/pom.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/security-service-sampleservices/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/security-service-sampleservices/target/maven-archiver/pom.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/security-service-sampleservices/target/war/work/webapp-cache.xml" afterPath="$PROJECT_DIR$/security-service-sampleservices/target/war/work/webapp-cache.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/security-service-webapi/src/main/java/com/ventyx/security/webservice/rest/SecurityServiceRestImpl.java" afterPath="$PROJECT_DIR$/security-service-webapi/src/main/java/com/ventyx/security/webservice/rest/SecurityServiceRestImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/security-service-webapi/src/main/resources/spring/security-service-webapi-context.xml" afterPath="$PROJECT_DIR$/security-service-webapi/src/main/resources/spring/security-service-webapi-context.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/security-service-webapi/target/ROOT/WEB-INF/classes/spring/security-service-webapi-context.xml" afterPath="$PROJECT_DIR$/security-service-webapi/target/ROOT/WEB-INF/classes/spring/security-service-webapi-context.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/security-service-webapi/target/classes/spring/security-service-webapi-context.xml" afterPath="$PROJECT_DIR$/security-service-webapi/target/classes/spring/security-service-webapi-context.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/security-service-webapi/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/security-service-webapi/target/maven-archiver/pom.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/security-service-webapi/target/war/work/webapp-cache.xml" afterPath="$PROJECT_DIR$/security-service-webapi/target/war/work/webapp-cache.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/security-service-webproxy/security-service-webproxy.iml" afterPath="$PROJECT_DIR$/security-service-webproxy/security-service-webproxy.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/security-service-webproxy/src/main/java/com/ventyx/security/service/proxy/ProxyServlet.java" afterPath="$PROJECT_DIR$/security-service-webproxy/src/main/java/com/ventyx/security/service/proxy/ProxyServlet.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/security-service-webproxy/src/main/resources/log4j.xml" afterPath="$PROJECT_DIR$/security-service-webproxy/src/main/resources/log4j.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/security-service-webproxy/src/main/resources/spring/security-service-webproxy-context.xml" afterPath="$PROJECT_DIR$/security-service-webproxy/src/main/resources/spring/security-service-webproxy-context.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/security-service-webproxy/src/test/java/com/ventyx/security/service/proxy/ProxyServletTest.java" afterPath="$PROJECT_DIR$/security-service-webproxy/src/test/java/com/ventyx/security/service/proxy/ProxyServletTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/security-service-webproxy/target/classes/log4j.xml" afterPath="$PROJECT_DIR$/security-service-webproxy/target/classes/log4j.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/security-service-webproxy/target/classes/spring/security-service-webproxy-context.xml" afterPath="$PROJECT_DIR$/security-service-webproxy/target/classes/spring/security-service-webproxy-context.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/security-service-webproxy/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/security-service-webproxy/target/maven-archiver/pom.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/security-service-webproxy/target/war/work/webapp-cache.xml" afterPath="$PROJECT_DIR$/security-service-webproxy/target/war/work/webapp-cache.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/security-service-webproxy/target/webproxy/WEB-INF/classes/log4j.xml" afterPath="$PROJECT_DIR$/security-service-webproxy/target/webproxy/WEB-INF/classes/log4j.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/security-service-webproxy/target/webproxy/WEB-INF/classes/spring/security-service-webproxy-context.xml" afterPath="$PROJECT_DIR$/security-service-webproxy/target/webproxy/WEB-INF/classes/spring/security-service-webproxy-context.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/security-service.iws" afterPath="$PROJECT_DIR$/security-service.iws" />
     </list>
     <ignored path="security-service.iws" />
@@ -35,7 +151,7 @@
   </component>
   <component name="DebuggerManager">
     <line_breakpoints>
-      <breakpoint url="file://$PROJECT_DIR$/security-service-webproxy/src/main/java/com/ventyx/security/service/proxy/ProxyServlet.java" line="330" class="com.ventyx.security.service.proxy.ProxyServlet" package="com.ventyx.security.service.proxy">
+      <breakpoint url="file://$PROJECT_DIR$/security-service-webproxy/src/main/java/com/ventyx/security/service/proxy/ProxyServlet.java" line="329" class="com.ventyx.security.service.proxy.ProxyServlet" package="com.ventyx.security.service.proxy">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -48,7 +164,7 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/security-service-impl/src/main/java/com/ventyx/security/service/TokenService.java" line="86" class="com.ventyx.security.service.TokenService" package="com.ventyx.security.service">
+      <breakpoint url="file://$PROJECT_DIR$/security-service-commons/src/main/java/com/ventyx/security/utils/TokenGenerator.java" line="248" class="com.ventyx.security.utils.TokenGenerator" package="com.ventyx.security.utils">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -61,20 +177,7 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/security-service-commons/src/main/java/com/ventyx/security/utils/TokenGenerator.java" line="238" class="com.ventyx.security.utils.TokenGenerator" package="com.ventyx.security.utils">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="false" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/security-service-commons/src/main/java/com/ventyx/security/utils/TokenGenerator.java" line="109" class="com.ventyx.security.utils.TokenGenerator" package="com.ventyx.security.utils">
+      <breakpoint url="file://$PROJECT_DIR$/security-service-commons/src/main/java/com/ventyx/security/utils/TokenGenerator.java" line="117" class="com.ventyx.security.utils.TokenGenerator" package="com.ventyx.security.utils">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -113,7 +216,7 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/security-service-impl/src/main/java/com/ventyx/security/service/TokenService.java" line="47" class="com.ventyx.security.service.TokenService" package="com.ventyx.security.service">
+      <breakpoint url="file://$PROJECT_DIR$/security-service-impl/src/main/java/com/ventyx/security/service/TokenService.java" line="52" class="com.ventyx.security.service.TokenService" package="com.ventyx.security.service">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -126,7 +229,7 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/security-service-impl/src/main/java/com/ventyx/security/service/TokenService.java" line="30" class="com.ventyx.security.service.TokenService" package="com.ventyx.security.service">
+      <breakpoint url="file://$PROJECT_DIR$/security-service-impl/src/main/java/com/ventyx/security/service/TokenService.java" line="35" class="com.ventyx.security.service.TokenService" package="com.ventyx.security.service">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -139,7 +242,7 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/security-service-impl/src/test/java/com/ventyx/security/service/TokenServiceTest.java" line="37" class="com.ventyx.security.service.TokenServiceTest" package="com.ventyx.security.service">
+      <breakpoint url="file://$PROJECT_DIR$/security-service-impl/src/test/java/com/ventyx/security/service/TokenServiceTest.java" line="36" class="com.ventyx.security.service.TokenServiceTest" package="com.ventyx.security.service">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -282,7 +385,7 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/security-service-impl/src/main/java/com/ventyx/security/service/TokenService.java" line="67" class="com.ventyx.security.service.TokenService" package="com.ventyx.security.service">
+      <breakpoint url="file://$PROJECT_DIR$/security-service-impl/src/main/java/com/ventyx/security/service/TokenService.java" line="72" class="com.ventyx.security.service.TokenService" package="com.ventyx.security.service">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -295,7 +398,7 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/security-service-webproxy/src/main/java/com/ventyx/security/service/proxy/ProxyServlet.java" line="147" class="com.ventyx.security.service.proxy.ProxyServlet" package="com.ventyx.security.service.proxy">
+      <breakpoint url="file://$PROJECT_DIR$/security-service-webproxy/src/main/java/com/ventyx/security/service/proxy/ProxyServlet.java" line="146" class="com.ventyx.security.service.proxy.ProxyServlet" package="com.ventyx.security.service.proxy">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -308,7 +411,7 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/security-service-webproxy/src/main/java/com/ventyx/security/service/proxy/ProxyServlet.java" line="149" class="com.ventyx.security.service.proxy.ProxyServlet" package="com.ventyx.security.service.proxy">
+      <breakpoint url="file://$PROJECT_DIR$/security-service-webproxy/src/main/java/com/ventyx/security/service/proxy/ProxyServlet.java" line="148" class="com.ventyx.security.service.proxy.ProxyServlet" package="com.ventyx.security.service.proxy">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -321,7 +424,7 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/security-service-webproxy/src/main/java/com/ventyx/security/service/proxy/ProxyServlet.java" line="232" class="com.ventyx.security.service.proxy.ProxyServlet" package="com.ventyx.security.service.proxy">
+      <breakpoint url="file://$PROJECT_DIR$/security-service-webproxy/src/main/java/com/ventyx/security/service/proxy/ProxyServlet.java" line="231" class="com.ventyx.security.service.proxy.ProxyServlet" package="com.ventyx.security.service.proxy">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -334,7 +437,7 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/security-service-webproxy/src/main/java/com/ventyx/security/service/proxy/ProxyServlet.java" line="188" class="com.ventyx.security.service.proxy.ProxyServlet" package="com.ventyx.security.service.proxy">
+      <breakpoint url="file://$PROJECT_DIR$/security-service-webproxy/src/main/java/com/ventyx/security/service/proxy/ProxyServlet.java" line="187" class="com.ventyx.security.service.proxy.ProxyServlet" package="com.ventyx.security.service.proxy">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -360,7 +463,72 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/security-service-webapi/src/main/java/com/ventyx/security/admin/action/ServiceDefinitionAction.java" line="61" class="com.ventyx.security.admin.action.ServiceDefinitionAction" package="com.ventyx.security.admin.action">
+      <breakpoint url="file://$PROJECT_DIR$/security-service-webapi/src/main/java/com/ventyx/security/admin/action/ServiceConfigurationAction.java" line="61" class="com.ventyx.security.admin.action.ServiceConfigurationAction" package="com.ventyx.security.admin.action">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="false" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/security-service-integration/configuration-repository-integration/src/test/java/com/ventyx/security/integration/configuration/TokenIntegrationServiceTest.java" line="41" class="com.ventyx.security.integration.configuration.TokenIntegrationServiceTest" package="com.ventyx.security.integration.configuration">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="false" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/security-service-webapi/src/main/java/com/ventyx/security/webservice/rest/SecurityServiceRestImpl.java" line="36" class="com.ventyx.security.webservice.rest.SecurityServiceRestImpl" package="com.ventyx.security.webservice.rest">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="false" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/security-service-webapi/src/main/java/com/ventyx/security/webservice/rest/SecurityServiceRestImpl.java" line="40" class="com.ventyx.security.webservice.rest.SecurityServiceRestImpl" package="com.ventyx.security.webservice.rest">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="false" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/security-service-webapi/src/main/java/com/ventyx/security/webservice/rest/SecurityServiceRestImpl.java" line="44" class="com.ventyx.security.webservice.rest.SecurityServiceRestImpl" package="com.ventyx.security.webservice.rest">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="false" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/security-service-impl/src/main/java/com/ventyx/security/service/TokenService.java" line="89" class="com.ventyx.security.service.TokenService" package="com.ventyx.security.service">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -414,10 +582,50 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="struts.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/security-service-webapi/src/main/resources/struts.xml">
+      <file leaf-file-name="TokenService.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/security-service-impl/src/main/java/com/ventyx/security/service/TokenService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="64" column="53" selection-start="3069" selection-end="3069" vertical-scroll-proportion="-13.36">
+            <state line="78" column="60" selection-start="3684" selection-end="3684" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TokenGenerator.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/security-service-commons/src/main/java/com/ventyx/security/utils/TokenGenerator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="123" column="0" selection-start="5064" selection-end="5064" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ServiceConfigurationIntegrationServiceTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/security-service-integration/configuration-repository-integration/src/test/java/com/ventyx/security/integration/configuration/ServiceConfigurationIntegrationServiceTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="0" selection-start="803" selection-end="901" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TokenIntegrationServiceTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/security-service-integration/configuration-repository-integration/src/test/java/com/ventyx/security/integration/configuration/TokenIntegrationServiceTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="35" column="24" selection-start="1613" selection-end="1623" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SecurityServiceRestImpl.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/security-service-webapi/src/main/java/com/ventyx/security/webservice/rest/SecurityServiceRestImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="36" column="0" selection-start="1043" selection-end="1043" vertical-scroll-proportion="0.4588015">
               <folding />
             </state>
           </provider>
@@ -426,86 +634,56 @@
       <file leaf-file-name="SecurityInterceptor.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/security-service-webapi/src/main/java/com/ventyx/security/admin/interceptor/SecurityInterceptor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="37" selection-start="1099" selection-end="1099" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="editServiceDefinition.jsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/security-service-webapi/src/main/webapp/WEB-INF/admin/editServiceDefinition.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="89" selection-start="682" selection-end="682" vertical-scroll-proportion="-11.115385">
+            <state line="26" column="0" selection-start="897" selection-end="897" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="createServiceDefinition.jsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/security-service-webapi/src/main/webapp/WEB-INF/admin/createServiceDefinition.jsp">
+      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/security-service-integration/configuration-repository-integration/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="0" selection-start="439" selection-end="639" vertical-scroll-proportion="-11.115385">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="struts-default.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/struts/struts2-core/2.3.4/struts2-core-2.3.4.jar!/struts-default.xml">
+      <file leaf-file-name="web.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/security-service-webapi/src/main/webapp/WEB-INF/web.xml">
+          <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
+            <state />
+          </provider>
+          <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
+            <state />
+          </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state line="166" column="0" selection-start="14913" selection-end="15661" vertical-scroll-proportion="60.6">
+            <state line="47" column="30" selection-start="1402" selection-end="1410" vertical-scroll-proportion="-19.4">
               <folding />
             </state>
           </provider>
+          <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
+            <state />
+          </provider>
         </entry>
       </file>
-      <file leaf-file-name="listServiceDefinition.jsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/security-service-webapi/src/main/webapp/WEB-INF/admin/listServiceDefinition.jsp">
+      <file leaf-file-name="security-service-webapi-context.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/security-service-webapi/src/main/resources/spring/security-service-webapi-context.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="70" selection-start="769" selection-end="792" vertical-scroll-proportion="-14.153846">
+            <state line="59" column="43" selection-start="3119" selection-end="3119" vertical-scroll-proportion="-19.6">
               <folding />
             </state>
           </provider>
+          <provider editor-type-id="com.intellij.spring.perspectives.SpringBeansStructureEditorProvider">
+            <state />
+          </provider>
         </entry>
       </file>
-      <file leaf-file-name="ServiceDefinition.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/security-service-commons/src/main/java/com/ventyx/security/api/model/ServiceDefinition.java">
+      <file leaf-file-name="ServiceConfigurationIntegrationService.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/security-service-integration/configuration-repository-integration/src/main/java/com/ventyx/security/integration/configuration/ServiceConfigurationIntegrationService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="0" selection-start="299" selection-end="426" vertical-scroll-proportion="-3.4">
+            <state line="15" column="51" selection-start="659" selection-end="697" vertical-scroll-proportion="0.0">
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TokenService.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/security-service-impl/src/main/java/com/ventyx/security/service/TokenService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="63" column="97" selection-start="2893" selection-end="2893" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CheckboxInterceptor.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/struts/struts2-core/2.3.4/struts2-core-2.3.4-sources.jar!/org/apache/struts2/interceptor/CheckboxInterceptor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="90" column="16" selection-start="3560" selection-end="3560" vertical-scroll-proportion="-7.4">
-              <folding>
-                <element signature="e#2377#2395#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ServiceDefinitionAction.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/security-service-webapi/src/main/java/com/ventyx/security/admin/action/ServiceDefinitionAction.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="72" column="22" selection-start="2273" selection-end="2273" vertical-scroll-proportion="0.36673346">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -524,22 +702,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/security-service-webapi/src/main/webapp/WEB-INF/admin/login.jsp" />
-        <option value="$PROJECT_DIR$/security-service-webapi/src/main/java/com/ventyx/security/admin/Constants.java" />
+        <option value="$PROJECT_DIR$/security-service-webapi/src/main/webapp/WEB-INF/admin/listServiceDefinition.jsp" />
+        <option value="$PROJECT_DIR$/security-service-webapi/src/main/java/com/ventyx/security/admin/action/ServiceConfigurationAction.java" />
         <option value="$PROJECT_DIR$/security-service-webapi/src/main/resources/spring/security-service-webapi-context.xml" />
-        <option value="$PROJECT_DIR$/security-service-webapi/pom.xml" />
-        <option value="$PROJECT_DIR$/security-service-integration/configuration-repository-integration/src/main/java/com/ventyx/security/integration/configuration/dao/ServiceConfigurationDao.java" />
+        <option value="$PROJECT_DIR$/security-service-commons/src/main/java/com/ventyx/security/api/model/ServiceConfiguration.java" />
+        <option value="$PROJECT_DIR$/security-service-webproxy/src/main/resources/log4j.xml" />
+        <option value="$PROJECT_DIR$/security-service-integration/configuration-repository-integration/src/main/resources/spring/configuration-repository-integration-context.xml" />
+        <option value="$PROJECT_DIR$/security-service-integration/configuration-repository-integration/src/main/java/com/ventyx/security/integration/configuration/dao/TokenDao.java" />
+        <option value="$PROJECT_DIR$/security-service-commons/src/main/java/com/ventyx/security/api/model/Token.java" />
+        <option value="$PROJECT_DIR$/security-service-commons/src/main/java/com/ventyx/security/api/TokenGenerationResponse.java" />
+        <option value="$PROJECT_DIR$/security-service-commons/src/main/java/com/ventyx/security/utils/TokenGenerator.java" />
         <option value="$PROJECT_DIR$/security-service-integration/configuration-repository-integration/src/main/java/com/ventyx/security/integration/configuration/ServiceConfigurationService.java" />
         <option value="$PROJECT_DIR$/security-service-impl/src/main/java/com/ventyx/security/service/ConfigurationService.java" />
-        <option value="$PROJECT_DIR$/security-service-integration/configuration-repository-integration/src/test/java/com/ventyx/security/integration/configuration/ConfigurationServiceTest.java" />
-        <option value="$PROJECT_DIR$/security-service-webapi/src/main/java/com/ventyx/security/admin/interceptor/SecurityInterceptor.java" />
-        <option value="$PROJECT_DIR$/security-service-commons/src/main/java/com/ventyx/security/api/model/ServiceDefinition.java" />
+        <option value="$PROJECT_DIR$/security-service-integration/configuration-repository-integration/src/main/java/com/ventyx/security/integration/configuration/TokenIntegrationService.java" />
         <option value="$PROJECT_DIR$/security-service-impl/src/main/java/com/ventyx/security/service/TokenService.java" />
-        <option value="$PROJECT_DIR$/security-service-webapi/src/main/webapp/WEB-INF/admin/createServiceDefinition.jsp" />
-        <option value="$PROJECT_DIR$/security-service-webapi/src/main/webapp/WEB-INF/admin/editServiceDefinition.jsp" />
-        <option value="$PROJECT_DIR$/security-service-webapi/src/main/webapp/WEB-INF/admin/listServiceDefinition.jsp" />
-        <option value="$PROJECT_DIR$/security-service-webapi/src/main/resources/struts.xml" />
-        <option value="$PROJECT_DIR$/security-service-webapi/src/main/java/com/ventyx/security/admin/action/ServiceDefinitionAction.java" />
+        <option value="$PROJECT_DIR$/security-service-integration/configuration-repository-integration/src/test/java/com/ventyx/security/integration/configuration/TokenIntegrationServiceTest.java" />
+        <option value="$PROJECT_DIR$/security-service-integration/configuration-repository-integration/pom.xml" />
       </list>
     </option>
   </component>
@@ -595,30 +773,6 @@
           <option name="myItemId" value="" />
           <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
         </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="security-service-webapi" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
-        </PATH_ELEMENT>
-      </PATH>
-      <PATH>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="security-service-webapi" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="Lifecycle" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$LifecycleNode" />
-        </PATH_ELEMENT>
-      </PATH>
-      <PATH>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
-        </PATH_ELEMENT>
       </PATH>
       <PATH>
         <PATH_ELEMENT>
@@ -652,8 +806,8 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1066" />
+    <option name="width" value="1696" />
+    <option name="height" value="1036" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -683,26 +837,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="PackagesPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="security-service" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -805,40 +939,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WEB-INF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="admin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="security-service" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="security-service" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="security-service-webapi" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -895,11 +995,121 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="local" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="security-service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="security-service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="security-service-webapi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="security" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webservice" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="security-service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="security-service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="security-service-webapi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="security" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webservice" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="soap" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="security-service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="security-service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="security-service-webapi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="security" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webservice" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rest" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -975,198 +1185,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Project Files">
           <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="security-service" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="security-service" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="security-service-webapi" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="security" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="admin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="action" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
+        </subPane>
+      </pane>
+      <pane id="PackagesPane">
+        <subPane>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="security-service" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="security-service" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="security-service-commons" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="security-service" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="security-service" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="security-service-commons" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="security-service" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="security-service" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="security-service-commons" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="security-service" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="security-service" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="security-service-commons" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="security" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="security-service" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="security-service" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="security-service-commons" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="security" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="api" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="security-service" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="security-service" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="security-service-commons" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="security" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="api" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="model" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -1192,9 +1228,9 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.searchVisible" value="true" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="dynamic.classpath" value="false" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -1203,17 +1239,16 @@
       <recent name="com.ventyx.security.service" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.ventyx.security.integration.configuration" />
+      <recent name="com.ventyx.security.integration.configuration.dao" />
       <recent name="com.ventyx.security.integration.ldap" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\projects\workspaces\security-service\security-service-webapi\src\main\resources" />
       <recent name="C:\projects\workspaces\security-service\security-service-webapi\src\main\webapp\WEB-INF\admin" />
       <recent name="C:\projects\workspaces\security-service\security-service-webapi\src\main\resources\env\local" />
       <recent name="C:\projects\workspaces\security-service\security-service-webproxy\src\main\resources\env\local" />
       <recent name="C:\projects\workspaces\security-service\security-service-integration\ldap-repository-integration\src\test\resources\env\local" />
-      <recent name="C:\projects\workspaces\security-service\security-service-integration\ldap-repository-integration\src\test\resources\spring" />
-    </key>
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="com.ventyx.security.service.proxy" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\projects\workspaces\security-service\security-service-webapi\src\main\webapp\WEB-INF\admin" />
@@ -1221,68 +1256,11 @@
       <recent name="C:\projects\workspaces\security-service\security-service-integration\ldap-repository-integration\src\test\resources\env" />
       <recent name="C:\projects\workspaces\security-service\security-service-integration\ldap-repository-integration\src\test\resources" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.ventyx.security.service.proxy" />
+    </key>
   </component>
   <component name="RunManager" selected="Tomcat Server.Tomcat 7">
-    <configuration default="false" name="RetrieveUserAttributes" type="Application" factoryName="Application" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.ventyx.security.integration.ldap.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.ventyx.security.integration.ldap.RetrieveUserAttributes" />
-      <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" value="" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="ldap-repository-integration" />
-      <envs />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="" />
-        <option name="TRANSPORT" value="0" />
-        <option name="LOCAL" value="true" />
-      </RunnerSettings>
-      <ConfigurationWrapper RunnerId="Debug" />
-      <method />
-    </configuration>
-    <configuration default="false" name="LdapIntegrationServiceTest" type="JUnit" factoryName="JUnit" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.ventyx.security.integration.ldap.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="ldap-repository-integration" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.ventyx.security.integration.ldap" />
-      <option name="MAIN_CLASS_NAME" value="com.ventyx.security.integration.ldap.LdapIntegrationServiceTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="" />
-        <option name="TRANSPORT" value="0" />
-        <option name="LOCAL" value="true" />
-      </RunnerSettings>
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Debug" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
     <configuration default="false" name="ActiveDirectoryIntegrationServiceTest" type="JUnit" factoryName="JUnit" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -1378,6 +1356,66 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
+    <configuration default="false" name="ServiceConfigurationIntegrationServiceTest" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.ventyx.security.integration.configuration.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="configuration-repository-integration" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.ventyx.security.integration.configuration" />
+      <option name="MAIN_CLASS_NAME" value="com.ventyx.security.integration.configuration.ServiceConfigurationIntegrationServiceTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="TokenIntegrationServiceTest" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.ventyx.security.integration.configuration.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="configuration-repository-integration" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.ventyx.security.integration.configuration" />
+      <option name="MAIN_CLASS_NAME" value="com.ventyx.security.integration.configuration.TokenIntegrationServiceTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <ConfigurationWrapper RunnerId="Debug" />
+      <method />
+    </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
@@ -1427,24 +1465,6 @@
         <option name="Maven.BeforeRunTask" enabled="false" />
       </method>
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method>
-        <option name="AntTarget" enabled="false" />
-        <option name="BuildArtifacts" enabled="false" />
-        <option name="Make" enabled="true" />
-        <option name="Maven.BeforeRunTask" enabled="false" />
-      </method>
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -1478,6 +1498,24 @@
         <option name="Maven.BeforeRunTask" enabled="false" />
       </method>
     </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method>
+        <option name="AntTarget" enabled="false" />
+        <option name="BuildArtifacts" enabled="false" />
+        <option name="Make" enabled="true" />
+        <option name="Maven.BeforeRunTask" enabled="false" />
+      </method>
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" />
@@ -1500,7 +1538,7 @@
     </configuration>
     <configuration default="true" type="JavascriptDebugSession" factoryName="Remote">
       <JSRemoteDebuggerConfigurationSettings>
-        <option name="engineId" />
+        <option name="engineId" value="embedded" />
         <option name="fileUrl" />
       </JSRemoteDebuggerConfigurationSettings>
       <method>
@@ -1675,7 +1713,7 @@
       </method>
     </configuration>
     <configuration default="false" name="Tomcat 7" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost/admin/listServiceDefinition.action" />
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost/admin/listServiceConfiguration.action" />
       <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
@@ -1755,13 +1793,13 @@
       </method>
     </configuration>
     <list size="7">
-      <item index="0" class="java.lang.String" itemvalue="Application.RetrieveUserAttributes" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.LdapIntegrationServiceTest" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.ActiveDirectoryIntegrationServiceTest" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.ProxyServletTest" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.All in security-service-webproxy" />
-      <item index="5" class="java.lang.String" itemvalue="Tomcat Server.Tomcat 7 - Proxy" />
-      <item index="6" class="java.lang.String" itemvalue="Tomcat Server.Tomcat 7" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.ActiveDirectoryIntegrationServiceTest" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.ProxyServletTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.All in security-service-webproxy" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.ServiceConfigurationIntegrationServiceTest" />
+      <item index="4" class="java.lang.String" itemvalue="Tomcat Server.Tomcat 7 - Proxy" />
+      <item index="5" class="java.lang.String" itemvalue="Tomcat Server.Tomcat 7" />
+      <item index="6" class="java.lang.String" itemvalue="JUnit.TokenIntegrationServiceTest" />
     </list>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
@@ -1805,31 +1843,31 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1696" height="1036" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2260274" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.369863" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.17351598" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.6643836" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39955848" sideWeight="0.9975649" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31621003" sideWeight="0.9975649" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32965687" sideWeight="0.6643836" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32990867" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3289183" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.13480392" sideWeight="0.18835616" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32876712" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24448529" sideWeight="0.22260274" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.13480392" sideWeight="0.73173517" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.13419117" sideWeight="0.68378997" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21420941" sideWeight="0.6004415" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34878588" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29166666" sideWeight="0.68378997" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.17351598" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.13480392" sideWeight="0.18835616" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1930,123 +1968,140 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/struts/struts2-core/2.3.4/struts2-core-2.3.4.jar!/META-INF/struts-tags.tld">
+    <entry file="file://$PROJECT_DIR$/security-service-integration/configuration-repository-integration/src/main/resources/spring/configuration-repository-integration-context.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6232" column="2" selection-start="240479" selection-end="240479" vertical-scroll-proportion="-1.2788104">
+        <state line="17" column="40" selection-start="1158" selection-end="1158" vertical-scroll-proportion="-14.45">
+          <folding>
+            <element signature="e#945#970#0" expanded="true" />
+            <element signature="e#1008#1021#0" expanded="true" />
+            <element signature="e#1064#1082#0" expanded="true" />
+            <element signature="e#1125#1143#0" expanded="true" />
+            <element signature="tag#prop#0;tag#props#0;tag#property#1;tag#bean#1;tag#beans#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+      <provider editor-type-id="com.intellij.spring.perspectives.SpringBeansStructureEditorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/security-service-commons/src/main/java/com/ventyx/security/api/model/Token.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="47" column="0" selection-start="1110" selection-end="1110" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/security-service-integration/configuration-repository-integration/src/main/java/com/ventyx/security/integration/configuration/ServiceConfigurationService.java">
+    <entry file="file://$PROJECT_DIR$/security-service-commons/src/main/java/com/ventyx/security/api/TokenGenerationResponse.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="30" selection-start="751" selection-end="751" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/security-service-integration/configuration-repository-integration/src/test/java/com/ventyx/security/integration/configuration/ConfigurationServiceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="22" selection-start="935" selection-end="935" vertical-scroll-proportion="0.0">
+        <state line="22" column="29" selection-start="522" selection-end="522" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/security-service-impl/src/main/java/com/ventyx/security/service/ConfigurationService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="50" selection-start="748" selection-end="782" vertical-scroll-proportion="0.0">
+        <state line="23" column="27" selection-start="924" selection-end="924" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/struts/struts2-core/2.3.4/struts2-core-2.3.4.jar!/org/apache/struts2/interceptor/CheckboxInterceptor.class">
+    <entry file="file://$PROJECT_DIR$/security-service-integration/configuration-repository-integration/src/main/java/com/ventyx/security/integration/configuration/UserIntegrationService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#0#742#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/struts/xwork/xwork-core/2.3.4/xwork-core-2.3.4.jar!/com/opensymphony/xwork2/DefaultActionInvocation.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="71" column="28" selection-start="3879" selection-end="3879" vertical-scroll-proportion="-8.28">
+        <state line="9" column="13" selection-start="224" selection-end="224" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/security-service-webapi/src/main/java/com/ventyx/security/admin/interceptor/SecurityInterceptor.java">
+    <entry file="file://$PROJECT_DIR$/security-service-integration/configuration-repository-integration/src/main/java/com/ventyx/security/integration/configuration/TokenIntegrationService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="37" selection-start="1099" selection-end="1099" vertical-scroll-proportion="0.0">
+        <state line="23" column="0" selection-start="833" selection-end="833" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/security-service-integration/configuration-repository-integration/src/main/java/com/ventyx/security/integration/configuration/ServiceConfigurationIntegrationService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="51" selection-start="659" selection-end="697" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/security-service-integration/configuration-repository-integration/src/test/java/com/ventyx/security/integration/configuration/ServiceConfigurationIntegrationServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="0" selection-start="803" selection-end="901" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/struts/struts2-core/2.3.4/struts2-core-2.3.4.jar!/struts-default.xml">
+    <entry file="file://$PROJECT_DIR$/security-service-integration/configuration-repository-integration/src/test/java/com/ventyx/security/integration/configuration/TokenIntegrationServiceTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="166" column="0" selection-start="14913" selection-end="15661" vertical-scroll-proportion="60.6">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/struts/struts2-core/2.3.4/struts2-core-2.3.4-sources.jar!/org/apache/struts2/interceptor/CheckboxInterceptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="90" column="16" selection-start="3560" selection-end="3560" vertical-scroll-proportion="-7.4">
+        <state line="35" column="24" selection-start="1613" selection-end="1623" vertical-scroll-proportion="0.0">
           <folding>
-            <element signature="e#2377#2395#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/security-service-commons/src/main/java/com/ventyx/security/api/model/ServiceDefinition.java">
+    <entry file="file://$PROJECT_DIR$/security-service-integration/configuration-repository-integration/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="0" selection-start="299" selection-end="426" vertical-scroll-proportion="-3.4">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/security-service-webapi/src/main/resources/spring/security-service-webapi-context.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="59" column="43" selection-start="3119" selection-end="3119" vertical-scroll-proportion="-19.6">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="com.intellij.spring.perspectives.SpringBeansStructureEditorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/security-service-webapi/src/main/webapp/WEB-INF/web.xml">
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
+        <state />
+      </provider>
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="47" column="30" selection-start="1402" selection-end="1410" vertical-scroll-proportion="-19.4">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/security-service-webapi/src/main/java/com/ventyx/security/admin/interceptor/SecurityInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="0" selection-start="897" selection-end="897" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/security-service-commons/src/main/java/com/ventyx/security/utils/TokenGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="123" column="0" selection-start="5064" selection-end="5064" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/security-service-impl/src/main/java/com/ventyx/security/service/TokenService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="63" column="97" selection-start="2893" selection-end="2893" vertical-scroll-proportion="0.0">
+        <state line="78" column="60" selection-start="3684" selection-end="3684" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/security-service-webapi/src/main/webapp/WEB-INF/admin/createServiceDefinition.jsp">
+    <entry file="file://$PROJECT_DIR$/security-service-webapi/src/main/java/com/ventyx/security/webservice/rest/SecurityServiceRestImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="0" selection-start="439" selection-end="639" vertical-scroll-proportion="-11.115385">
+        <state line="36" column="0" selection-start="1043" selection-end="1043" vertical-scroll-proportion="0.4588015">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/security-service-webapi/src/main/webapp/WEB-INF/admin/editServiceDefinition.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="89" selection-start="682" selection-end="682" vertical-scroll-proportion="-11.115385">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/security-service-webapi/src/main/webapp/WEB-INF/admin/listServiceDefinition.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="70" selection-start="769" selection-end="792" vertical-scroll-proportion="-14.153846">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/security-service-webapi/src/main/resources/struts.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="64" column="53" selection-start="3069" selection-end="3069" vertical-scroll-proportion="-13.36">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/security-service-webapi/src/main/java/com/ventyx/security/admin/action/ServiceDefinitionAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="72" column="22" selection-start="2273" selection-end="2273" vertical-scroll-proportion="0.36673346">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>

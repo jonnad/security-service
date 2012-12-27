@@ -1,6 +1,6 @@
 package com.ventyx.security.integration.configuration.dao;
 
-import com.ventyx.security.api.model.ServiceDefinition;
+import com.ventyx.security.api.model.ServiceConfiguration;
 import org.hibernate.SessionFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.orm.hibernate3.support.HibernateDaoSupport;
@@ -24,20 +24,20 @@ public class ServiceConfigurationDao extends HibernateDaoSupport {
         setSessionFactory(factory);
     }
 
-    public void saveOrUpdate(ServiceDefinition serviceDefinition) {
-        getHibernateTemplate().saveOrUpdate(serviceDefinition);
+    public void saveOrUpdate(ServiceConfiguration serviceConfiguration) {
+        getHibernateTemplate().saveOrUpdate(serviceConfiguration);
     }
 
-    public void delete(ServiceDefinition serviceDefinition) {
-        getHibernateTemplate().delete(serviceDefinition);
+    public void delete(ServiceConfiguration serviceConfiguration) {
+        getHibernateTemplate().delete(serviceConfiguration);
     }
 
-    public ServiceDefinition find(Integer id) {
-        return (ServiceDefinition) getHibernateTemplate().get(ServiceDefinition.class, id);
+    public ServiceConfiguration find(Integer id) {
+        return (ServiceConfiguration) getHibernateTemplate().get(ServiceConfiguration.class, id);
     }
 
     public List findAll() {
-        return getHibernateTemplate().find("from " + ServiceDefinition.class.getName());
+        return getHibernateTemplate().find("from " + ServiceConfiguration.class.getName());
     }
 
 

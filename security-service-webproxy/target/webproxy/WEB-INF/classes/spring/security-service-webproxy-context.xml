@@ -30,7 +30,7 @@
         <property name="annotatedClasses">
             <list>
                 <value>com.ventyx.security.api.model.Authentication</value>
-                <value>com.ventyx.security.api.model.ServiceDefinition</value>
+                <value>com.ventyx.security.api.model.ServiceConfiguration</value>
                 <value>com.ventyx.security.api.model.Endpoint</value>
             </list>
         </property>

@@ -2,19 +2,16 @@ package com.ventyx.security.service.proxy;
 
 import com.ventyx.security.api.model.Authentication;
 import com.ventyx.security.api.model.Endpoint;
-import com.ventyx.security.api.model.ServiceDefinition;
+import com.ventyx.security.api.model.ServiceConfiguration;
 import com.ventyx.security.service.ConfigurationService;
 import com.ventyx.security.service.TokenService;
-import org.apache.commons.io.FileUtils;
 import org.junit.Test;
 
 import static org.mockito.Mockito.*;
-import static org.junit.Assert.*;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import java.io.File;
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.ArrayList;
@@ -58,14 +55,14 @@ public class ProxyServletTest  {
         authentication.setEnabled(true);
         authentication.setId(1);
 
-        ServiceDefinition serviceDefinition = new ServiceDefinition();
-        serviceDefinition.setId(1);
-        serviceDefinition.setEnabled(true);
-        serviceDefinition.setRequiresUserAuthentication(true);
-        serviceDefinition.setSecured(true);
-        List<ServiceDefinition> serviceDefinitions = new ArrayList<ServiceDefinition>();
-        serviceDefinitions.add(serviceDefinition);
-        authentication.setServiceDefinitions(serviceDefinitions);
+        ServiceConfiguration serviceConfiguration = new ServiceConfiguration();
+        serviceConfiguration.setId(1);
+        serviceConfiguration.setEnabled(true);
+        serviceConfiguration.setRequiresUserAuthentication(true);
+        serviceConfiguration.setSecured(true);
+        List<ServiceConfiguration> serviceConfigurations = new ArrayList<ServiceConfiguration>();
+        serviceConfigurations.add(serviceConfiguration);
+        authentication.setServiceConfigurations(serviceConfigurations);
 
         Endpoint endpoint = new Endpoint();
         endpoint.setId(1);
@@ -76,12 +73,12 @@ public class ProxyServletTest  {
         endpoint.setServiceUri("/business/service");        //matching value
         List<Endpoint> endpoints = new ArrayList<Endpoint>();
         endpoints.add(endpoint);
-        serviceDefinition.setEndpoints(endpoints);
+        serviceConfiguration.setEndpoints(endpoints);
 
         TokenService tokenService = mock(TokenService.class);
         ConfigurationService configurationService = mock(ConfigurationService.class);
         when(configurationService.getAuthentication(anyString())).thenReturn(authentication);
-        when(configurationService.getServiceConfigurations()).thenReturn(serviceDefinitions);
+        when(configurationService.getServiceConfigurations()).thenReturn(serviceConfigurations);
 
         ProxyServlet proxyServlet = new ProxyServlet();
         proxyServlet.setConfigurationService(configurationService);
@@ -110,14 +107,14 @@ public class ProxyServletTest  {
         authentication.setEnabled(true);
         authentication.setId(1);
 
-        ServiceDefinition serviceDefinition = new ServiceDefinition();
-        serviceDefinition.setId(1);
-        serviceDefinition.setEnabled(true);
-        serviceDefinition.setRequiresUserAuthentication(true);
-        serviceDefinition.setSecured(true);
-        List<ServiceDefinition> serviceDefinitions = new ArrayList<ServiceDefinition>();
-        serviceDefinitions.add(serviceDefinition);
-        authentication.setServiceDefinitions(serviceDefinitions);
+        ServiceConfiguration serviceConfiguration = new ServiceConfiguration();
+        serviceConfiguration.setId(1);
+        serviceConfiguration.setEnabled(true);
+        serviceConfiguration.setRequiresUserAuthentication(true);
+        serviceConfiguration.setSecured(true);
+        List<ServiceConfiguration> serviceConfigurations = new ArrayList<ServiceConfiguration>();
+        serviceConfigurations.add(serviceConfiguration);
+        authentication.setServiceConfigurations(serviceConfigurations);
 
         Endpoint endpoint = new Endpoint();
         endpoint.setId(1);
@@ -128,12 +125,12 @@ public class ProxyServletTest  {
         endpoint.setServiceUri("/business/service");        //matching value
         List<Endpoint> endpoints = new ArrayList<Endpoint>();
         endpoints.add(endpoint);
-        serviceDefinition.setEndpoints(endpoints);
+        serviceConfiguration.setEndpoints(endpoints);
 
         TokenService tokenService = mock(TokenService.class);
         ConfigurationService configurationService = mock(ConfigurationService.class);
         when(configurationService.getAuthentication(anyString())).thenReturn(authentication);
-        when(configurationService.getServiceConfigurations()).thenReturn(serviceDefinitions);
+        when(configurationService.getServiceConfigurations()).thenReturn(serviceConfigurations);
 
         ProxyServlet proxyServlet = new ProxyServlet();
         proxyServlet.setConfigurationService(configurationService);
@@ -161,14 +158,14 @@ public class ProxyServletTest  {
         authentication.setEnabled(true);
         authentication.setId(1);
 
-        ServiceDefinition serviceDefinition = new ServiceDefinition();
-        serviceDefinition.setId(1);
-        serviceDefinition.setEnabled(true);
-        serviceDefinition.setRequiresUserAuthentication(true);
-        serviceDefinition.setSecured(true);
-        List<ServiceDefinition> serviceDefinitions = new ArrayList<ServiceDefinition>();
-        serviceDefinitions.add(serviceDefinition);
-        authentication.setServiceDefinitions(serviceDefinitions);
+        ServiceConfiguration serviceConfiguration = new ServiceConfiguration();
+        serviceConfiguration.setId(1);
+        serviceConfiguration.setEnabled(true);
+        serviceConfiguration.setRequiresUserAuthentication(true);
+        serviceConfiguration.setSecured(true);
+        List<ServiceConfiguration> serviceConfigurations = new ArrayList<ServiceConfiguration>();
+        serviceConfigurations.add(serviceConfiguration);
+        authentication.setServiceConfigurations(serviceConfigurations);
 
         Endpoint endpoint = new Endpoint();
         endpoint.setId(1);
@@ -179,12 +176,12 @@ public class ProxyServletTest  {
         endpoint.setServiceUri("/business/service");        //matching value
         List<Endpoint> endpoints = new ArrayList<Endpoint>();
         endpoints.add(endpoint);
-        serviceDefinition.setEndpoints(endpoints);
+        serviceConfiguration.setEndpoints(endpoints);
 
         TokenService tokenService = mock(TokenService.class);
         ConfigurationService configurationService = mock(ConfigurationService.class);
         when(configurationService.getAuthentication(anyString())).thenReturn(authentication);
-        when(configurationService.getServiceConfigurations()).thenReturn(serviceDefinitions);
+        when(configurationService.getServiceConfigurations()).thenReturn(serviceConfigurations);
         when(tokenService.validateToken(anyString())).thenReturn(true);
 
         ProxyServlet proxyServlet = new ProxyServlet();

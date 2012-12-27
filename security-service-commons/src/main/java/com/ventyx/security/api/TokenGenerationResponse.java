@@ -1,11 +1,13 @@
 package com.ventyx.security.api;
 
+import com.ventyx.security.api.model.Token;
+
 /**
  * Represents a token generation response
  */
 public class TokenGenerationResponse {
 
-    private String token;
+    private Token token;
     private String errorCode = "0";
     private String errorMessage = "";
 
@@ -18,11 +20,11 @@ public class TokenGenerationResponse {
         this.errorMessage = errorMessage;
     }
 
-    public String getToken() {
+    public Token getToken() {
         return token;
     }
 
-    public void setToken(String token) {
+    public void setToken(Token token) {
         this.token = token;
     }
 

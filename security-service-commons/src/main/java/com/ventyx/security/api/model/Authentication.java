@@ -13,7 +13,7 @@ public class Authentication {
     private Integer id;
     private String applicationUser;
     private String applicationPassword; //todo encrypt
-    private List<ServiceDefinition> serviceDefinitions;
+    private List<ServiceConfiguration> serviceConfigurations;
     private boolean enabled = true;
 
     @Id
@@ -45,12 +45,12 @@ public class Authentication {
     }
 
     @ManyToMany(mappedBy = "authentications")
-    public List<ServiceDefinition> getServiceDefinitions() {
-        return serviceDefinitions;
+    public List<ServiceConfiguration> getServiceConfigurations() {
+        return serviceConfigurations;
     }
 
-    public void setServiceDefinitions(List<ServiceDefinition> serviceDefinition) {
-        this.serviceDefinitions = serviceDefinition;
+    public void setServiceConfigurations(List<ServiceConfiguration> serviceConfiguration) {
+        this.serviceConfigurations = serviceConfiguration;
     }
 
     public boolean isEnabled() {

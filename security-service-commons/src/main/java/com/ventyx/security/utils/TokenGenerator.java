@@ -1,5 +1,7 @@
 package com.ventyx.security.utils;
 
+import com.ventyx.security.api.model.ServiceConfiguration;
+import com.ventyx.security.api.model.Token;
 import org.bouncycastle.util.encoders.Base64;
 import org.joda.time.DateTime;
 import org.opensaml.Configuration;
@@ -82,11 +84,11 @@ public class TokenGenerator {
         }
     }
     public static void main (String[] args) {
-        String token = generateAssertion("fred", false, false);
+        Token token = generateAssertion(null, "123456787", false, false);
         System.out.println(token);
 
         try {
-            decryptAssertion(token);
+            decryptAssertion(token.getValue());
         } catch (Exception ex) {
             ex.printStackTrace();
         }
@@ -94,24 +96,32 @@ public class TokenGenerator {
 
     }
 
-    public static String generateAssertion(String nameId, boolean encrypt, boolean encode) {
+    public static Token generateAssertion(ServiceConfiguration serviceConfiguration, String nameId, boolean encrypt, boolean encode) {
 
         try {
 
+            String tokenId = "_" + UUID.randomUUID().toString();
+
             Map<String, String> attributes = new HashMap<String, String>();
-            Assertion assertion = buildDefaultAssertion("jhamel@ventyx.abb.com", attributes, "http://customer.organization.com", "http://ventyx.abb.com/idp/SAML2", 10);
+            Assertion assertion = buildDefaultAssertion("jhamel@ventyx.abb.com", attributes, tokenId, "http://customer.organization.com", "http://ventyx.abb.com/idp/SAML2", 10);
 
             EncryptedAssertion encryptedAssertion = encryptAssertion(assertion, encrpytionCredential);
             Response response = buildDefaultResponse(encryptedAssertion);
+
+            Token token = new Token();
+            token.setTokenId(tokenId);
+            token.setServiceConfiguration(serviceConfiguration);
 
             //dump the response
             String responseString = transformResponse(response);
 
             if (encode) {
-                return new String(Base64.encode(responseString.getBytes()));
+                token.setValue(new String(Base64.encode(responseString.getBytes())));
+            } else {
+                token.setValue(responseString);
             }
 
-            return responseString;
+            return token;
 
         } catch (Exception ex) {
             ex.printStackTrace();
@@ -169,7 +179,7 @@ public class TokenGenerator {
         return samlResponse;
     }
 
-    private static Assertion buildDefaultAssertion(String nameIdValue, Map<String, String> attributes, String restrictionValue, String issuerValue, Integer tokenExpirationInMinutes) {
+    private static Assertion buildDefaultAssertion(String nameIdValue, Map<String, String> attributes, String tokenId, String restrictionValue, String issuerValue, Integer tokenExpirationInMinutes) {
 
         try {
             // Create the NameIdentifier
@@ -236,7 +246,7 @@ public class TokenGenerator {
             // Create the assertion
             SAMLObjectBuilder assertionBuilder = (SAMLObjectBuilder) xmlObjectBuilderFactory.getBuilder(Assertion.DEFAULT_ELEMENT_NAME);
             Assertion assertion = (Assertion) assertionBuilder.buildObject();
-            assertion.setID("_" + UUID.randomUUID().toString());
+            assertion.setID(tokenId);
             assertion.setSubject(subject);
             assertion.setIssuer(issuer);
             assertion.setIssueInstant(now);

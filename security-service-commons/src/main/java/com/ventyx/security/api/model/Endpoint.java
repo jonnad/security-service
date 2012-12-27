@@ -16,7 +16,7 @@ public class Endpoint {
     private Integer servicePort;
     private boolean enabled = true;
     private boolean matchPartialUri = true;
-    private ServiceDefinition serviceDefinition;
+    private ServiceConfiguration serviceConfiguration;
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -84,11 +84,11 @@ public class Endpoint {
 
     @ManyToOne( cascade = {CascadeType.PERSIST, CascadeType.MERGE} )
     @JoinColumn(name="service_configuration_id")
-    public ServiceDefinition getServiceDefinition() {
-        return serviceDefinition;
+    public ServiceConfiguration getServiceConfiguration() {
+        return serviceConfiguration;
     }
 
-    public void setServiceDefinition(ServiceDefinition serviceDefinition) {
-        this.serviceDefinition = serviceDefinition;
+    public void setServiceConfiguration(ServiceConfiguration serviceConfiguration) {
+        this.serviceConfiguration = serviceConfiguration;
     }
 }

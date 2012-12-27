@@ -4,8 +4,10 @@ import com.ventyx.security.api.TokenGenerationRequest;
 import com.ventyx.security.api.TokenGenerationResponse;
 import com.ventyx.security.api.UserService;
 import com.ventyx.security.api.model.Authentication;
-import com.ventyx.security.api.model.ServiceDefinition;
+import com.ventyx.security.api.model.ServiceConfiguration;
+import com.ventyx.security.api.model.Token;
 import com.ventyx.security.api.model.TokenFormat;
+import com.ventyx.security.integration.configuration.TokenIntegrationService;
 import com.ventyx.security.utils.TokenGenerator;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -18,6 +20,9 @@ public class TokenService {
 
     @Autowired
     ConfigurationService configurationService;
+
+    @Autowired
+    TokenIntegrationService tokenIntegrationService;
 
     @Autowired
     @Qualifier("ldapIntegrationService")
@@ -52,26 +57,25 @@ public class TokenService {
             return null;
         }
 
-        if (authentication.getServiceDefinitions() == null || authentication.getServiceDefinitions().isEmpty()) {
+        if (authentication.getServiceConfigurations() == null || authentication.getServiceConfigurations().isEmpty()) {
             log.warn("User record " + tokenGenerationRequest.getApplicationUser() + " does not have any permissions.");
             return null;
         }
 
-        for (ServiceDefinition serviceDefinition : authentication.getServiceDefinitions()) {
-            if (serviceDefinition.getId().equals(Integer.parseInt(tokenGenerationRequest.getApplicationId()))) {
+        for (ServiceConfiguration serviceConfiguration : authentication.getServiceConfigurations()) {
+            if (serviceConfiguration.getId().equals(Integer.parseInt(tokenGenerationRequest.getApplicationId()))) {
 
-                if (!serviceDefinition.isEnabled()) {
+                if (!serviceConfiguration.isEnabled()) {
                     log.warn("User " + tokenGenerationRequest.getApplicationUser() + " was found but the service is disabled.");
                     return null;
                 }
 
-                if (serviceDefinition.isRequiresUserAuthentication()) {
+                if (serviceConfiguration.isRequiresUserAuthentication()) {
                     //this is a case where the user authentication will be pushed to the proper component if present
                     if (tokenGenerationRequest.getUserPrincipal() == null || tokenGenerationRequest.getUserPassword() == null) {
                         log.warn("User authentication is required to complete generating this type of token.");
                         return null;
                     }
-
 
                     //TODO delegate to the proper component for user auth
 
@@ -82,7 +86,8 @@ public class TokenService {
                 if (TokenFormat.SAML_PLAIN.equals(tokenGenerationRequest.getTokenFormat())) {
                     encode = false;
                 }
-                String token = TokenGenerator.generateAssertion(tokenGenerationRequest.getApplicationUser(), true, encode);
+                Token token = TokenGenerator.generateAssertion(serviceConfiguration, tokenGenerationRequest.getApplicationUser(), true, encode);
+                tokenIntegrationService.createOrUpdateToken(token);
 
                 TokenGenerationResponse response = new TokenGenerationResponse();
                 response.setToken(token);
