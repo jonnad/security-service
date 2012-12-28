@@ -64,7 +64,7 @@ public class ProxyServletIntegrationTest  {
         WebConversation webConversation = new WebConversation();
 
         InputStream body = ProxyServletIntegrationTest.class.getClassLoader().getResourceAsStream("tokenRequest.xml");
-        WebRequest webRequest = new PostMethodWebRequest( "http://localhost:8980/webapi/test.html", body, "text/xml" );
+        WebRequest webRequest = new PostMethodWebRequest( "http://localhost:8980/webproxy/test.html", body, "text/xml" );
 
         WebResponse webResponse = webConversation.getResponse(webRequest);
 
@@ -79,7 +79,7 @@ public class ProxyServletIntegrationTest  {
         WebConversation webConversation = new WebConversation();
 
         InputStream body = ProxyServletIntegrationTest.class.getClassLoader().getResourceAsStream("tokenRequest.xml");
-        WebRequest webRequest = new PostMethodWebRequest( "http://localhost:8980/webapi/some/business/url", body, "text/xml" );
+        WebRequest webRequest = new PostMethodWebRequest( "http://localhost:8980/webproxy/some/business/url", body, "text/xml" );
 
         try {
             WebResponse webResponse = webConversation.getResponse(webRequest);

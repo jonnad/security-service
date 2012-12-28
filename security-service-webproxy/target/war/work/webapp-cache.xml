@@ -57,9 +57,13 @@
           <string>WEB-INF/lib/cglib-2.2.2.jar</string>
           <string>WEB-INF/lib/asm-3.3.1.jar</string>
           <string>WEB-INF/lib/javassist-3.9.0.GA.jar</string>
+          <string>WEB-INF/lib/jackson-core-asl-1.8.6.jar</string>
+          <string>WEB-INF/lib/jackson-mapper-asl-1.8.6.jar</string>
           <string>WEB-INF/lib/security-service-impl-1.0-SNAPSHOT.jar</string>
           <string>WEB-INF/lib/configuration-repository-integration-1.0-SNAPSHOT.jar</string>
+          <string>WEB-INF/lib/spring-context-support-3.1.2.RELEASE.jar</string>
           <string>WEB-INF/lib/spring-tx-3.1.2.RELEASE.jar</string>
+          <string>WEB-INF/lib/ehcache-core-2.6.0.jar</string>
           <string>WEB-INF/lib/spring-orm-3.1.2.RELEASE.jar</string>
           <string>WEB-INF/lib/spring-jdbc-3.1.2.RELEASE.jar</string>
           <string>WEB-INF/lib/c3p0-0.9.1.2.jar</string>
@@ -67,7 +71,6 @@
           <string>WEB-INF/lib/ldap-repository-integration-1.0-SNAPSHOT.jar</string>
           <string>WEB-INF/lib/unboundid-ldapsdk-2.3.1.jar</string>
           <string>WEB-INF/lib/commons-configuration-1.8.jar</string>
-          <string>WEB-INF/lib/spring-context-support-3.1.2.RELEASE.jar</string>
           <string>WEB-INF/lib/spring-web-3.1.2.RELEASE.jar</string>
           <string>WEB-INF/lib/jsp-api-2.0.jar</string>
           <string>WEB-INF/lib/servlet-api-2.4.jar</string>

@@ -94,7 +94,7 @@ public class ServiceConfiguration {
         this.userAuthenticationScheme = userAuthenticationScheme;
     }
 
-    @OneToMany(cascade = CascadeType.ALL ,fetch = FetchType.LAZY, mappedBy = "serviceConfiguration")
+    @OneToMany(fetch = FetchType.EAGER, mappedBy = "serviceConfiguration")
     public List<Endpoint> getEndpoints() {
         return endpoints;
     }
@@ -103,7 +103,7 @@ public class ServiceConfiguration {
         this.endpoints = endpoints;
     }
 
-    @ManyToMany(cascade = CascadeType.ALL)
+    @ManyToMany()
     @JoinTable(name = "service_authentications", joinColumns = { @JoinColumn(name = "service_id") }, inverseJoinColumns = { @JoinColumn(name = "authentication_id") })
     public List<Authentication> getAuthentications() {
         return authentications;

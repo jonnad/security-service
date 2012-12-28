@@ -32,6 +32,7 @@
                 <value>com.ventyx.security.api.model.Authentication</value>
                 <value>com.ventyx.security.api.model.ServiceConfiguration</value>
                 <value>com.ventyx.security.api.model.Endpoint</value>
+                <value>com.ventyx.security.api.model.Token</value>
             </list>
         </property>
     </bean>

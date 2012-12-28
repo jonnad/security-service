@@ -7,6 +7,7 @@ import com.ventyx.security.integration.configuration.dao.AuthenticationDao;
 import com.ventyx.security.integration.configuration.dao.ServiceConfigurationDao;
 import com.ventyx.security.integration.configuration.dao.TokenDao;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.cache.annotation.Cacheable;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -29,6 +30,7 @@ public class ServiceConfigurationIntegrationService {
         serviceConfigurationDao.saveOrUpdate(serviceConfiguration);
     }
 
+    @Cacheable("serviceConfigurationCache")
     public ServiceConfiguration getServiceConfiguration(Integer id) {
         return serviceConfigurationDao.find(id);
     }
@@ -37,6 +39,7 @@ public class ServiceConfigurationIntegrationService {
         return serviceConfigurationDao.findAll();
     }
 
+    @Cacheable("authenticationCache")
     public Authentication getAuthentication(String applicationUser) {
         return authenticationDao.findByApplicationUser(applicationUser);
     }

@@ -131,6 +131,12 @@ public class ProxyServlet extends HttpServlet {
             return;
         }
 
+        //no proxy for the browser requested favicon
+        if (servletRequest.getRequestURI().toLowerCase().equals("/favicon.ico")) {
+            servletResponse.setStatus(HttpServletResponse.SC_OK);
+            return;
+        }
+
         try {
 
             List<ServiceConfiguration> serviceConfigurations = configurationService.getServiceConfigurations();
@@ -143,9 +149,9 @@ public class ProxyServlet extends HttpServlet {
 
                     if (serviceConfiguration.isEnabled()) {
 
-                        if (serviceConfiguration.getEndpoints() != null) {
+                        if (serviceConfiguration.getEndpoints() != null && !serviceConfiguration.getEndpoints().isEmpty()) {
                             for (Endpoint endpoint : serviceConfiguration.getEndpoints()) {
-                                if (servletRequest.getRequestURI().toLowerCase().contains(endpoint.getServiceUri())) {
+                                if (servletRequest.getRequestURI().toLowerCase().contains(endpoint.getServiceUri().toLowerCase())) {
                                     //we are only proxying the server/host
                                     targetUri = new URI(endpoint.getServiceHost() + ":" + endpoint.getServicePort() + servletRequest.getRequestURI());
 
@@ -189,12 +195,6 @@ public class ProxyServlet extends HttpServlet {
         BasicHttpEntityEnclosingRequest proxyRequest =
                 new BasicHttpEntityEnclosingRequest(servletRequest.getMethod(), rewriteUrlFromRequest(servletRequest, targetUri));
 
-        /*
-        servletRequest.getRequestURI() = {java.lang.String@2907}"/service-proxy/test.html"
-        servletRequest.getRequestURL() = {java.lang.StringBuffer@2912}"http://localhost:8980/service-proxy/test.html"
-        servletRequest.getContextPath() = {java.lang.String@2916}"/service-proxy"
-        servletRequest.getServletPath() = {java.lang.String@2917}"/test.html"
-         */
 
         copyRequestHeaders(servletRequest, proxyRequest, targetUri);
 

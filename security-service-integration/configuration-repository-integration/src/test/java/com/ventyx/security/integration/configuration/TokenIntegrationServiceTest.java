@@ -1,5 +1,6 @@
 package com.ventyx.security.integration.configuration;
 
+import com.ventyx.security.api.model.Authentication;
 import com.ventyx.security.api.model.ServiceConfiguration;
 import com.ventyx.security.api.model.Token;
 import org.junit.Test;
@@ -9,6 +10,11 @@ import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.AbstractTransactionalJUnit4SpringContextTests;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import org.springframework.transaction.annotation.Transactional;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import static org.junit.Assert.*;
 
 @RunWith(SpringJUnit4ClassRunner.class)
 @ContextConfiguration(locations = "classpath:spring/configuration-repository-integration-test-context.xml")
@@ -22,7 +28,7 @@ public class TokenIntegrationServiceTest extends AbstractTransactionalJUnit4Spri
     ServiceConfigurationIntegrationService serviceConfigurationIntegrationService;
 
     @Test
-    public void testGetServiceConfiguration() throws Exception {
+    public void testGetServiceConfiguration() {
 
         ServiceConfiguration serviceConfiguration = new ServiceConfiguration();
         serviceConfiguration.setName("My test service configuration");
@@ -42,4 +48,6 @@ public class TokenIntegrationServiceTest extends AbstractTransactionalJUnit4Spri
         logger.info("Here is the iD" + token.getId());
 
     }
+
+
 }

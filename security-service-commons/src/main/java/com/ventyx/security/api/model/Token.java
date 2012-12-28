@@ -1,6 +1,9 @@
 package com.ventyx.security.api.model;
 
+import org.codehaus.jackson.annotate.JsonIgnore;
+
 import javax.persistence.*;
+import javax.xml.bind.annotation.XmlTransient;
 
 /**
  * Class representing a unique instance of a token, mainly for logging and verification purposes
@@ -16,6 +19,7 @@ public class Token {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @XmlTransient
     public long getId() {
         return id;
     }
@@ -33,9 +37,10 @@ public class Token {
         this.tokenId = tokenId;
     }
 
-
     @ManyToOne( cascade = {CascadeType.PERSIST, CascadeType.MERGE} )
     @JoinColumn(name="service_configuration_id")
+    @JsonIgnore
+    @XmlTransient
     public ServiceConfiguration getServiceConfiguration() {
         return serviceConfiguration;
     }

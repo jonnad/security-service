@@ -5,6 +5,12 @@ import com.ventyx.security.api.model.Endpoint;
 import com.ventyx.security.api.model.ServiceConfiguration;
 import com.ventyx.security.service.ConfigurationService;
 import com.ventyx.security.service.TokenService;
+import org.apache.http.HttpEntity;
+import org.apache.http.HttpResponse;
+import org.apache.http.ProtocolVersion;
+import org.apache.http.entity.InputStreamEntity;
+import org.apache.http.message.BasicHttpEntityEnclosingRequest;
+import org.apache.http.message.BasicHttpResponse;
 import org.junit.Test;
 
 import static org.mockito.Mockito.*;
@@ -12,7 +18,9 @@ import static org.mockito.Mockito.*;
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import java.io.FileInputStream;
 import java.io.IOException;
+import java.io.InputStream;
 import java.io.PrintWriter;
 import java.util.ArrayList;
 import java.util.List;
@@ -140,7 +148,6 @@ public class ProxyServletTest  {
         verify(response).setStatus(HttpServletResponse.SC_FORBIDDEN);
     }
 
-    @Test
     public void testSecuredAccessWithGoodToken() throws IOException, ServletException {
 
         HttpServletRequest request = mock(HttpServletRequest.class);
@@ -182,13 +189,21 @@ public class ProxyServletTest  {
         ConfigurationService configurationService = mock(ConfigurationService.class);
         when(configurationService.getAuthentication(anyString())).thenReturn(authentication);
         when(configurationService.getServiceConfigurations()).thenReturn(serviceConfigurations);
-        when(tokenService.validateToken(anyString())).thenReturn(true);
+        when(tokenService.validateToken("SOMETOKENVALUE")).thenReturn(true);
 
         ProxyServlet proxyServlet = new ProxyServlet();
         proxyServlet.setConfigurationService(configurationService);
         proxyServlet.setTokenService(tokenService);
-        //proxyServlet.service(request, response);
 
-        //verify(response).setStatus(HttpServletResponse.SC_FORBIDDEN);
+        proxyServlet.service(request, response);
+        verify(response).setStatus(HttpServletResponse.SC_OK);
+
+
+
+
     }
+
+
+
+
 }
