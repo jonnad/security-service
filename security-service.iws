@@ -1,41 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="45be2244-758e-4f8f-bf01-28bf994eab8c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/security-service-integration/configuration-repository-integration/src/main/resources/ehcache/ehcache.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/security-service-sampleservices/src/main/resources/readme.txt" />
-      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-sampleservices\target\sampleservices\WEB-INF\lib\jaxb-impl-2.1.13.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webapi\target\ROOT\WEB-INF\lib\jaxb-impl-2.1.13.jar" afterPath="" />
+    <list default="true" id="45be2244-758e-4f8f-bf01-28bf994eab8c" name="Default" comment="Cleanup">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/security-service-webproxy/src/main/resources/ehcache/ehcache.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/security-service-commons/target/security-service-commons-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/security-service-commons/target/security-service-commons-1.0-SNAPSHOT.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/security-service-impl/target/security-service-impl-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/security-service-impl/target/security-service-impl-1.0-SNAPSHOT.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/security-service-integration/configuration-repository-integration/target/configuration-repository-integration-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/security-service-integration/configuration-repository-integration/target/configuration-repository-integration-1.0-SNAPSHOT.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/security-service-integration/ldap-repository-integration/target/ldap-repository-integration-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/security-service-integration/ldap-repository-integration/target/ldap-repository-integration-1.0-SNAPSHOT.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/security-service-sampleservices/target/sampleservices.war" afterPath="$PROJECT_DIR$/security-service-sampleservices/target/sampleservices.war" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/security-service-sampleservices/target/sampleservices/WEB-INF/lib/configuration-repository-integration-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/security-service-sampleservices/target/sampleservices/WEB-INF/lib/configuration-repository-integration-1.0-SNAPSHOT.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/security-service-sampleservices/target/sampleservices/WEB-INF/lib/ldap-repository-integration-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/security-service-sampleservices/target/sampleservices/WEB-INF/lib/ldap-repository-integration-1.0-SNAPSHOT.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/security-service-sampleservices/target/sampleservices/WEB-INF/lib/security-service-commons-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/security-service-sampleservices/target/sampleservices/WEB-INF/lib/security-service-commons-1.0-SNAPSHOT.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/security-service-sampleservices/target/sampleservices/WEB-INF/lib/security-service-impl-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/security-service-sampleservices/target/sampleservices/WEB-INF/lib/security-service-impl-1.0-SNAPSHOT.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/security-service-webapi/target/ROOT.war" afterPath="$PROJECT_DIR$/security-service-webapi/target/ROOT.war" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/security-service-webapi/target/ROOT/WEB-INF/lib/configuration-repository-integration-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/security-service-webapi/target/ROOT/WEB-INF/lib/configuration-repository-integration-1.0-SNAPSHOT.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/security-service-webapi/target/ROOT/WEB-INF/lib/ldap-repository-integration-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/security-service-webapi/target/ROOT/WEB-INF/lib/ldap-repository-integration-1.0-SNAPSHOT.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/security-service-webapi/target/ROOT/WEB-INF/lib/security-service-commons-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/security-service-webapi/target/ROOT/WEB-INF/lib/security-service-commons-1.0-SNAPSHOT.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/security-service-webapi/target/ROOT/WEB-INF/lib/security-service-impl-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/security-service-webapi/target/ROOT/WEB-INF/lib/security-service-impl-1.0-SNAPSHOT.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/security-service-webproxy/target/webproxy.war" afterPath="$PROJECT_DIR$/security-service-webproxy/target/webproxy.war" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/security-service-commons/pom.xml" afterPath="$PROJECT_DIR$/security-service-commons/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/security-service-commons/security-service-commons.iml" afterPath="$PROJECT_DIR$/security-service-commons/security-service-commons.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/security-service-commons/src/main/java/com/ventyx/security/api/model/ServiceConfiguration.java" afterPath="$PROJECT_DIR$/security-service-commons/src/main/java/com/ventyx/security/api/model/ServiceConfiguration.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/security-service-commons/src/main/java/com/ventyx/security/api/model/Token.java" afterPath="$PROJECT_DIR$/security-service-commons/src/main/java/com/ventyx/security/api/model/Token.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/security-service-impl/security-service-impl.iml" afterPath="$PROJECT_DIR$/security-service-impl/security-service-impl.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/security-service-impl/src/main/resources/spring/security-service-impl-context.xml" afterPath="$PROJECT_DIR$/security-service-impl/src/main/resources/spring/security-service-impl-context.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/security-service-integration/configuration-repository-integration/configuration-repository-integration.iml" afterPath="$PROJECT_DIR$/security-service-integration/configuration-repository-integration/configuration-repository-integration.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/security-service-integration/configuration-repository-integration/pom.xml" afterPath="$PROJECT_DIR$/security-service-integration/configuration-repository-integration/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/security-service-integration/configuration-repository-integration/src/main/java/com/ventyx/security/integration/configuration/ServiceConfigurationIntegrationService.java" afterPath="$PROJECT_DIR$/security-service-integration/configuration-repository-integration/src/main/java/com/ventyx/security/integration/configuration/ServiceConfigurationIntegrationService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/security-service-webproxy/target/webproxy/WEB-INF/lib/configuration-repository-integration-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/security-service-webproxy/target/webproxy/WEB-INF/lib/configuration-repository-integration-1.0-SNAPSHOT.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/security-service-webproxy/target/webproxy/WEB-INF/lib/ldap-repository-integration-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/security-service-webproxy/target/webproxy/WEB-INF/lib/ldap-repository-integration-1.0-SNAPSHOT.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/security-service-webproxy/target/webproxy/WEB-INF/lib/security-service-commons-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/security-service-webproxy/target/webproxy/WEB-INF/lib/security-service-commons-1.0-SNAPSHOT.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/security-service-webproxy/target/webproxy/WEB-INF/lib/security-service-impl-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/security-service-webproxy/target/webproxy/WEB-INF/lib/security-service-impl-1.0-SNAPSHOT.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/security-service-commons/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/security-service-commons/target/maven-archiver/pom.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/security-service-impl/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/security-service-impl/target/maven-archiver/pom.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/security-service-integration/configuration-repository-integration/src/main/resources/spring/configuration-repository-integration-context.xml" afterPath="$PROJECT_DIR$/security-service-integration/configuration-repository-integration/src/main/resources/spring/configuration-repository-integration-context.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/security-service-integration/configuration-repository-integration/src/test/java/com/ventyx/security/integration/configuration/ServiceConfigurationIntegrationServiceTest.java" afterPath="$PROJECT_DIR$/security-service-integration/configuration-repository-integration/src/test/java/com/ventyx/security/integration/configuration/ServiceConfigurationIntegrationServiceTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/security-service-integration/configuration-repository-integration/src/test/java/com/ventyx/security/integration/configuration/TokenIntegrationServiceTest.java" afterPath="$PROJECT_DIR$/security-service-integration/configuration-repository-integration/src/test/java/com/ventyx/security/integration/configuration/TokenIntegrationServiceTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/security-service-integration/ldap-repository-integration/ldap-repository-integration.iml" afterPath="$PROJECT_DIR$/security-service-integration/ldap-repository-integration/ldap-repository-integration.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/security-service-integration/configuration-repository-integration/target/classes/spring/configuration-repository-integration-context.xml" afterPath="$PROJECT_DIR$/security-service-integration/configuration-repository-integration/target/classes/spring/configuration-repository-integration-context.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/security-service-integration/configuration-repository-integration/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/security-service-integration/configuration-repository-integration/target/maven-archiver/pom.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/security-service-integration/ldap-repository-integration/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/security-service-integration/ldap-repository-integration/target/maven-archiver/pom.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/security-service-sampleservices/security-service-sampleservices.iml" afterPath="$PROJECT_DIR$/security-service-sampleservices/security-service-sampleservices.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/security-service-sampleservices/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/security-service-sampleservices/target/maven-archiver/pom.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/security-service-sampleservices/target/war/work/webapp-cache.xml" afterPath="$PROJECT_DIR$/security-service-sampleservices/target/war/work/webapp-cache.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/security-service-webapi/security-service-webapi.iml" afterPath="$PROJECT_DIR$/security-service-webapi/security-service-webapi.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/security-service-webapi/src/main/java/com/ventyx/security/admin/LoginAction.java" afterPath="$PROJECT_DIR$/security-service-webapi/src/main/java/com/ventyx/security/admin/LoginAction.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/security-service-webapi/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/security-service-webapi/target/maven-archiver/pom.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/security-service-webapi/target/war/work/webapp-cache.xml" afterPath="$PROJECT_DIR$/security-service-webapi/target/war/work/webapp-cache.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/security-service-webproxy/pom.xml" afterPath="$PROJECT_DIR$/security-service-webproxy/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/security-service-webproxy/security-service-webproxy.iml" afterPath="$PROJECT_DIR$/security-service-webproxy/security-service-webproxy.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/security-service-webproxy/src/main/java/com/ventyx/security/service/proxy/ProxyServlet.java" afterPath="$PROJECT_DIR$/security-service-webproxy/src/main/java/com/ventyx/security/service/proxy/ProxyServlet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/security-service-webproxy/src/main/resources/security-service-webproxy.properties" afterPath="$PROJECT_DIR$/security-service-webproxy/src/main/resources/security-service-webproxy.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/security-service-webproxy/src/main/resources/spring/security-service-webproxy-context.xml" afterPath="$PROJECT_DIR$/security-service-webproxy/src/main/resources/spring/security-service-webproxy-context.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/security-service-webproxy/src/test/java/com/ventyx/security/service/proxy/ProxyServletIntegrationTest.java" afterPath="$PROJECT_DIR$/security-service-webproxy/src/test/java/com/ventyx/security/service/proxy/ProxyServletIntegrationTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/security-service-webproxy/src/test/java/com/ventyx/security/service/proxy/ProxyServletTest.java" afterPath="$PROJECT_DIR$/security-service-webproxy/src/test/java/com/ventyx/security/service/proxy/ProxyServletTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/security-service.ipr" afterPath="$PROJECT_DIR$/security-service.ipr" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/security-service-webproxy/target/classes/spring/security-service-webproxy-context.xml" afterPath="$PROJECT_DIR$/security-service-webproxy/target/classes/spring/security-service-webproxy-context.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/security-service-webproxy/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/security-service-webproxy/target/maven-archiver/pom.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/security-service-webproxy/target/war/work/webapp-cache.xml" afterPath="$PROJECT_DIR$/security-service-webproxy/target/war/work/webapp-cache.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/security-service-webproxy/target/webproxy/WEB-INF/classes/spring/security-service-webproxy-context.xml" afterPath="$PROJECT_DIR$/security-service-webproxy/target/webproxy/WEB-INF/classes/spring/security-service-webproxy-context.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/security-service.iws" afterPath="$PROJECT_DIR$/security-service.iws" />
     </list>
     <ignored path="security-service.iws" />
@@ -405,7 +411,7 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/security-service-webproxy/src/main/java/com/ventyx/security/service/proxy/ProxyServlet.java" line="144" class="com.ventyx.security.service.proxy.ProxyServlet" package="com.ventyx.security.service.proxy">
+      <breakpoint url="file://$PROJECT_DIR$/security-service-webproxy/src/main/java/com/ventyx/security/service/proxy/ProxyServlet.java" line="141" class="com.ventyx.security.service.proxy.ProxyServlet" package="com.ventyx.security.service.proxy">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -418,20 +424,7 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/security-service-webproxy/src/main/java/com/ventyx/security/service/proxy/ProxyServlet.java" line="153" class="com.ventyx.security.service.proxy.ProxyServlet" package="com.ventyx.security.service.proxy">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="false" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/security-service-webproxy/src/main/java/com/ventyx/security/service/proxy/ProxyServlet.java" line="166" class="com.ventyx.security.service.proxy.ProxyServlet" package="com.ventyx.security.service.proxy">
+      <breakpoint url="file://$PROJECT_DIR$/security-service-webproxy/src/main/java/com/ventyx/security/service/proxy/ProxyServlet.java" line="125" class="com.ventyx.security.service.proxy.ProxyServlet" package="com.ventyx.security.service.proxy">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -501,105 +494,7 @@
     <favorites_list name="security-service" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="ProxyServlet.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/security-service-webproxy/src/main/java/com/ventyx/security/service/proxy/ProxyServlet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="160" column="81" selection-start="6972" selection-end="6972" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="213" column="28" selection-start="7819" selection-end="7831" vertical-scroll-proportion="-7.68">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/security-service-integration/configuration-repository-integration/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="48" column="36" selection-start="1582" selection-end="1582" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="readme.txt" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/security-service-sampleservices/src/main/resources/readme.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="0" selection-start="812" selection-end="812" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TokenService.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/security-service-impl/src/main/java/com/ventyx/security/service/TokenService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="73" column="36" selection-start="3299" selection-end="3303" vertical-scroll-proportion="0.61926603">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BusinessServlet.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/security-service-sampleservices/src/main/java/com/ventyx/security/webservice/http/BusinessServlet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="13" selection-start="299" selection-end="299" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ServiceConfiguration.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/security-service-commons/src/main/java/com/ventyx/security/api/model/ServiceConfiguration.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="90" column="19" selection-start="2300" selection-end="2300" vertical-scroll-proportion="-32.64">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Token.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/security-service-commons/src/main/java/com/ventyx/security/api/model/Token.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="24" selection-start="751" selection-end="751" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SecurityServiceRestImpl.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/security-service-webapi/src/main/java/com/ventyx/security/webservice/rest/SecurityServiceRestImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="33" selection-start="1076" selection-end="1076" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="security-service-webproxy-context.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/security-service-webproxy/src/main/resources/spring/security-service-webproxy-context.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="20.4">
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="com.intellij.spring.perspectives.SpringBeansStructureEditorProvider">
-            <state />
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -613,14 +508,9 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/security-service-commons/src/main/java/com/ventyx/security/api/model/Token.java" />
-        <option value="$PROJECT_DIR$/security-service-webproxy/src/main/resources/security-service-webproxy.properties" />
-        <option value="$PROJECT_DIR$/security-service-webproxy/src/test/java/com/ventyx/security/service/proxy/ProxyServletTest.java" />
         <option value="$PROJECT_DIR$/security-service-webproxy/src/test/java/com/ventyx/security/service/proxy/ProxyServletIntegrationTest.java" />
-        <option value="$PROJECT_DIR$/security-service-webproxy/src/main/resources/spring/security-service-webproxy-context.xml" />
         <option value="$PROJECT_DIR$/security-service-integration/configuration-repository-integration/src/main/java/com/ventyx/security/integration/configuration/ServiceConfigurationIntegrationService.java" />
         <option value="$PROJECT_DIR$/security-service-impl/src/main/resources/spring/security-service-impl-context.xml" />
-        <option value="$PROJECT_DIR$/security-service-integration/configuration-repository-integration/src/main/resources/spring/configuration-repository-integration-context.xml" />
         <option value="$PROJECT_DIR$/security-service-integration/configuration-repository-integration/src/main/resources/ehcache/ehcache.xml" />
         <option value="$PROJECT_DIR$/security-service-integration/configuration-repository-integration/src/test/java/com/ventyx/security/integration/configuration/TokenIntegrationServiceTest.java" />
         <option value="$PROJECT_DIR$/security-service-integration/configuration-repository-integration/src/test/java/com/ventyx/security/integration/configuration/ServiceConfigurationIntegrationServiceTest.java" />
@@ -629,6 +519,11 @@
         <option value="$PROJECT_DIR$/security-service-integration/configuration-repository-integration/pom.xml" />
         <option value="$PROJECT_DIR$/security-service-webproxy/src/main/java/com/ventyx/security/service/proxy/ProxyServlet.java" />
         <option value="$PROJECT_DIR$/security-service-sampleservices/src/main/resources/readme.txt" />
+        <option value="$PROJECT_DIR$/security-service-webproxy/pom.xml" />
+        <option value="$PROJECT_DIR$/security-service-integration/configuration-repository-integration/src/main/resources/spring/configuration-repository-integration-context.xml" />
+        <option value="$PROJECT_DIR$/security-service-webproxy/src/main/resources/spring/security-service-webproxy-context.xml" />
+        <option value="$PROJECT_DIR$/security-service-webproxy/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/security-service-webapi/src/main/java/com/ventyx/security/admin/LoginAction.java" />
       </list>
     </option>
   </component>
@@ -685,52 +580,16 @@
           <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$LifecycleNode" />
         </PATH_ELEMENT>
       </PATH>
-      <PATH>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="configuration-repository-integration" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="Dependencies" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$DependenciesNode" />
-        </PATH_ELEMENT>
-      </PATH>
-      <PATH>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="configuration-repository-integration" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
-        </PATH_ELEMENT>
-      </PATH>
-      <PATH>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="configuration-repository-integration" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="Lifecycle" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$LifecycleNode" />
-        </PATH_ELEMENT>
-      </PATH>
     </treeState>
   </component>
   <component name="MavenRunner">
     <option name="skipTests" value="true" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="width" value="1678" />
-    <option name="height" value="1020" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1696" />
+    <option name="height" value="1036" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -780,16 +639,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
       <pane id="PackagesPane">
         <subPane>
           <PATH>
@@ -800,20 +649,30 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_directory_selection" value="$PROJECT_DIR$/security-service-webproxy/src/test/java/com/ventyx/security/service/proxy" />
     <property name="GoToFile.includeJavaFiles" value="false" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit3" />
     <property name="OverrideImplement.combined" value="true" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="options.lastSelected" value="project.propVCSSupport.VCSs.Git" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="GoToClass.includeJavaFiles" value="true" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
@@ -837,11 +696,11 @@
       <recent name="com.ventyx.security.integration.ldap" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\projects\workspaces\security-service\security-service-webproxy\src\main\resources\ehcache" />
       <recent name="C:\projects\workspaces\security-service\security-service-webapi\src\main\resources" />
       <recent name="C:\projects\workspaces\security-service\security-service-webapi\src\main\webapp\WEB-INF\admin" />
       <recent name="C:\projects\workspaces\security-service\security-service-webapi\src\main\resources\env\local" />
       <recent name="C:\projects\workspaces\security-service\security-service-webproxy\src\main\resources\env\local" />
-      <recent name="C:\projects\workspaces\security-service\security-service-integration\ldap-repository-integration\src\test\resources\env\local" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\projects\workspaces\security-service\security-service-webapi\src\main\webapp\WEB-INF\admin" />
@@ -1058,6 +917,23 @@
         <option name="Maven.BeforeRunTask" enabled="false" />
       </method>
     </configuration>
+    <configuration default="true" type="JBossConfiguration" factoryName="Local">
+      <deployment />
+      <server-settings>
+        <option name="SERVER" value="" />
+        <option name="BINDING_SET_NAME" value="" />
+        <option name="USERNAME" value="" />
+        <option name="PASSWORD" value="" />
+      </server-settings>
+      <predefined_log_file id="JBoss" enabled="true" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <method>
+        <option name="AntTarget" enabled="false" />
+        <option name="BuildArtifacts" enabled="false" />
+        <option name="Make" enabled="true" />
+        <option name="Maven.BeforeRunTask" enabled="false" />
+      </method>
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -1232,8 +1108,191 @@
         <option name="Maven.BeforeRunTask" enabled="false" />
       </method>
     </configuration>
+    <configuration default="false" name="JBoss 7.1" type="JBossConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="JBoss 7.1.1.Final">
+      <option name="OPEN_IN_BROWSER" value="false" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="security-service-sampleservices:war">
+          <settings />
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="SERVER" />
+        <option name="BINDING_SET_NAME" value="" />
+        <option name="USERNAME" value="" />
+        <option name="PASSWORD" value="" />
+      </server-settings>
+      <predefined_log_file id="JBoss" enabled="true" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <RunnerSettings RunnerId="Cover" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="58812" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method>
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="security-service-sampleservices:war" />
+        </option>
+      </method>
+    </configuration>
+    <configuration default="false" name="JBoss 7.1.1.Final - 8980" type="JBossConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="JBoss 7.1.1.Final - 8980">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8980/webproxy/test.html" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="security-service-webproxy:war">
+          <settings />
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="SERVER" />
+        <option name="BINDING_SET_NAME" value="" />
+        <option name="USERNAME" value="" />
+        <option name="PASSWORD" value="" />
+      </server-settings>
+      <predefined_log_file id="JBoss" enabled="true" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <RunnerSettings RunnerId="Cover" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="59484" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method>
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="security-service-webproxy:war" />
+        </option>
+      </method>
+    </configuration>
+    <configuration default="false" name="ProxyServletTest.testSecuredAccessWithGoodToken" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.ventyx.security.service.proxy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="security-service-webproxy" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.ventyx.security.service.proxy" />
+      <option name="MAIN_CLASS_NAME" value="com.ventyx.security.service.proxy.ProxyServletTest" />
+      <option name="METHOD_NAME" value="testSecuredAccessWithGoodToken" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
     <configuration default="false" name="Tomcat 7 - Proxy" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 71 8980">
       <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8980/test.html" />
+      <option name="COMMON_VM_ARGUMENTS" value="-XX:PermSize=512m -XX:MaxPermSize=512m" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="security-service-webproxy:war exploded">
@@ -1307,6 +1366,7 @@
     </configuration>
     <configuration default="false" name="Tomcat 7" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7">
       <option name="OPEN_IN_BROWSER_URL" value="http://localhost/admin/listServiceConfiguration.action" />
+      <option name="COMMON_VM_ARGUMENTS" value="-XX:PermSize=512m -XX:MaxPermSize=512m" />
       <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
@@ -1385,49 +1445,17 @@
         </option>
       </method>
     </configuration>
-    <configuration default="false" name="ProxyServletTest.testSecuredAccessWithGoodToken" type="JUnit" factoryName="JUnit">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.ventyx.security.service.proxy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="security-service-webproxy" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.ventyx.security.service.proxy" />
-      <option name="MAIN_CLASS_NAME" value="com.ventyx.security.service.proxy.ProxyServletTest" />
-      <option name="METHOD_NAME" value="testSecuredAccessWithGoodToken" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="" />
-        <option name="TRANSPORT" value="0" />
-        <option name="LOCAL" value="true" />
-      </RunnerSettings>
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Debug" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <list size="8">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.All in security-service-webproxy" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.ServiceConfigurationIntegrationServiceTest" />
-      <item index="2" class="java.lang.String" itemvalue="Tomcat Server.Tomcat 7 - Proxy" />
-      <item index="3" class="java.lang.String" itemvalue="Tomcat Server.Tomcat 7" />
+    <list size="10">
+      <item index="0" class="java.lang.String" itemvalue="JBoss Server.JBoss 7.1" />
+      <item index="1" class="java.lang.String" itemvalue="JBoss Server.JBoss 7.1.1.Final - 8980" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.All in security-service-webproxy" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.ServiceConfigurationIntegrationServiceTest" />
       <item index="4" class="java.lang.String" itemvalue="JUnit.TokenIntegrationServiceTest" />
       <item index="5" class="java.lang.String" itemvalue="JUnit.com.ventyx.security.service.proxy in security-service-webproxy" />
       <item index="6" class="java.lang.String" itemvalue="JUnit.ProxyServletTest.testSecuredAccessWithGoodToken" />
       <item index="7" class="java.lang.String" itemvalue="JUnit.com.ventyx.security.integration.configuration in configuration-repository-integration" />
+      <item index="8" class="java.lang.String" itemvalue="Tomcat Server.Tomcat 7 - Proxy" />
+      <item index="9" class="java.lang.String" itemvalue="Tomcat Server.Tomcat 7" />
     </list>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
@@ -1471,34 +1499,34 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1678" height="1020" extended-state="0" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1696" height="1036" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2260274" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5673516" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.6643836" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17209302" sideWeight="0.9975649" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2488372" sideWeight="0.9975649" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32965687" sideWeight="0.6643836" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32990867" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32876712" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.13357843" sideWeight="0.13926941" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24448529" sideWeight="0.22260274" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.13506815" sideWeight="0.82790697" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18711276" sideWeight="0.75116277" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3141264" sideWeight="0.82790697" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.41666666" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23039216" sideWeight="0.70348835" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29651162" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.13357843" sideWeight="0.13926941" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2496902" sideWeight="0.70348835" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22674419" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32790697" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -1596,133 +1624,193 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/security-service-integration/configuration-repository-integration/src/main/java/com/ventyx/security/integration/configuration/dao/AuthenticationDao.java">
+    <entry file="file://$PROJECT_DIR$/security-service-integration/configuration-repository-integration/src/main/resources/ehcache/ehcache.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="13" selection-start="615" selection-end="615" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="12" column="21" selection-start="582" selection-end="582" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/security-service-integration/configuration-repository-integration/src/main/java/com/ventyx/security/integration/configuration/dao/ServiceConfigurationDao.java">
+    <entry file="file://$PROJECT_DIR$/security-service-webproxy/src/main/resources/ehcache/ehcache.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="13" selection-start="545" selection-end="545" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
+        <state line="21" column="111" selection-start="1037" selection-end="1037" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/security-service-integration/configuration-repository-integration/src/main/java/com/ventyx/security/integration/configuration/dao/TokenDao.java">
+    <entry file="file://$PROJECT_DIR$/security-service-integration/configuration-repository-integration/src/main/resources/spring/configuration-repository-integration-context.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="13" selection-start="424" selection-end="424" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/security-service-webproxy/src/test/java/com/ventyx/security/service/proxy/ProxyServletTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="13" selection-start="985" selection-end="985" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2618#2640#0" expanded="true" />
-            <element signature="e#3133#3143#0" expanded="true" />
-            <element signature="e#4996#5018#0" expanded="true" />
-            <element signature="e#5511#5521#0" expanded="true" />
-            <element signature="e#7409#7431#0" expanded="true" />
-            <element signature="e#7924#7934#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/security-service-webproxy/src/test/java/com/ventyx/security/service/proxy/ProxyServletIntegrationTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="0" selection-start="454" selection-end="487" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/security-service-webproxy/src/main/resources/spring/security-service-webproxy-context.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="20.4">
-          <folding />
-        </state>
+        <state line="49" column="91" selection-start="2761" selection-end="2761" vertical-scroll-proportion="0.0" />
       </provider>
       <provider editor-type-id="com.intellij.spring.perspectives.SpringBeansStructureEditorProvider">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/security-service-sampleservices/src/main/java/com/ventyx/security/webservice/http/BusinessServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="13" selection-start="299" selection-end="299" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$MAVEN_REPOSITORY$/net/sf/ehcache/ehcache/2.6.0/ehcache-2.6.0.pom">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="213" column="28" selection-start="7819" selection-end="7831" vertical-scroll-proportion="-7.68">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/security-service-integration/configuration-repository-integration/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="36" selection-start="1582" selection-end="1582" vertical-scroll-proportion="0.0">
+        <state line="46" column="0" selection-start="1479" selection-end="1618" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/security-service-webproxy/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="48" column="95" selection-start="1506" selection-end="1506" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/security-service-webproxy/src/main/resources/spring/security-service-webproxy-context.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="37" selection-start="1990" selection-end="1990" vertical-scroll-proportion="0.0" />
+      </provider>
+      <provider editor-type-id="com.intellij.spring.perspectives.SpringBeansStructureEditorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/security-service-sampleservices/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="100" column="33" selection-start="3092" selection-end="3106" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/unboundid/unboundid-ldapsdk/2.3.1/unboundid-ldapsdk-2.3.1.jar!/com/unboundid/ldap/sdk/LDAPConnectionInternals.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="55" column="41" selection-start="2523" selection-end="2523" vertical-scroll-proportion="0.82688767" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/security-service-webproxy/src/main/webapp/WEB-INF/web.xml">
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="23" selection-start="1053" selection-end="1053" vertical-scroll-proportion="-20.55" />
+      </provider>
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
+        <state />
+      </provider>
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="uml://SPRING/mappedClass=com.ventyx.security.webservice.soap.SecurityServiceSoapImpl">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>SPRING</ID>
+          <OriginalElement>mappedClass=com.ventyx.security.webservice.soap.SecurityServiceSoapImpl</OriginalElement>
+          <nodes>
+            <node x="" y="">module=security-service-webapi;bean_name=dataSource;fileset=fileset1;bean_class=org.springframework.jdbc.datasource.DriverManagerDataSource</node>
+            <node x="" y="">module=security-service-webapi;bean_class=org.springframework.orm.hibernate3.annotation.AnnotationSessionFactoryBean;bean_name=sessionFactory;fileset=fileset1</node>
+            <node x="" y="">module=security-service-impl;bean_name=tokenService;bean_class=com.ventyx.security.service.TokenService</node>
+            <node x="" y="">module=security-service-webapi;tag=jaxws:endpoint;offset=3424;fileset=fileset1</node>
+            <node x="" y="">bean_class=com.ventyx.security.integration.configuration.dao.ServiceConfigurationDao;bean_name=serviceConfigurationDao;module=configuration-repository-integration</node>
+            <node x="" y="">bean_class=com.ventyx.security.service.ConfigurationService;module=security-service-impl;bean_name=configurationService</node>
+            <node x="" y="">module=security-service-webapi;bean_name=services;fileset=fileset1</node>
+            <node x="" y="">bean_class=com.ventyx.security.integration.ldap.LdapIntegrationService;bean_name=ldapIntegrationService;module=ldap-repository-integration</node>
+            <node x="" y="">module=security-service-webapi;bean_class=org.springframework.transaction.interceptor.TransactionInterceptor;tag=tx:annotation-driven;fileset=fileset1;offset=2824</node>
+            <node x="" y="">module=security-service-webapi;bean_class=org.apache.cxf.bus.spring.Jsr250BeanPostProcessor;fileset=fileset1;bean_name=org.apache.cxf.bus.spring.Jsr250BeanPostProcessor</node>
+            <node x="" y="">module=security-service-webapi;bean_class=org.apache.cxf.bus.spring.SpringBus;fileset=fileset1;bean_name=cxf</node>
+            <node x="" y="">bean_name=tokenDao;bean_class=com.ventyx.security.integration.configuration.dao.TokenDao;module=configuration-repository-integration</node>
+            <node x="" y="">module=security-service-webapi;fileset=fileset1;bean_name=org.apache.cxf.bus.spring.BusExtensionPostProcessor;bean_class=org.apache.cxf.bus.spring.BusExtensionPostProcessor</node>
+            <node x="" y="">module=security-service-webapi;bean_name=org.apache.cxf.bus.spring.BusWiringBeanFactoryPostProcessor;fileset=fileset1;bean_class=org.apache.cxf.bus.spring.BusWiringBeanFactoryPostProcessor</node>
+            <node x="" y="">bean_class=com.ventyx.security.integration.ldap.ActiveDirectoryIntegrationService;bean_name=activeDirectoryIntegrationService;module=ldap-repository-integration</node>
+            <node x="" y="">module=security-service-webapi;fileset=fileset1;bean_name=context:annotation-config</node>
+            <node x="" y="">module=security-service-webapi;bean_name=transactionManager;fileset=fileset1;bean_class=org.springframework.orm.hibernate3.HibernateTransactionManager</node>
+            <node x="" y="">bean_class=com.ventyx.security.integration.configuration.dao.AuthenticationDao;module=configuration-repository-integration;bean_name=authenticationDao</node>
+            <node x="" y="">module=security-service-webapi;bean_name=serviceConfigurationAction;bean_class=com.ventyx.security.admin.action.ServiceConfigurationAction</node>
+            <node x="" y="">bean_class=com.ventyx.security.integration.configuration.ServiceConfigurationIntegrationService;bean_name=serviceConfigurationIntegrationService;module=configuration-repository-integration</node>
+            <node x="" y="">bean_name=tokenIntegrationService;module=configuration-repository-integration;bean_class=com.ventyx.security.integration.configuration.TokenIntegrationService</node>
+            <node x="" y="">module=security-service-webapi;bean_name=localSecurityWebServiceImpl;fileset=fileset1;bean_class=com.ventyx.security.webservice.soap.SecurityServiceSoapImpl</node>
+            <node x="" y="">bean_class=org.springframework.beans.factory.config.PropertyPlaceholderConfigurer;module=security-service-webapi;tag=context:property-placeholder;fileset=fileset1;offset=1157</node>
+            <node x="" y="">module=security-service-webapi;fileset=fileset1;offset=1023;tag=context:component-scan</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.9217877094972067" x="452.0" y="478.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Properties</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/security-service-webapi/src/main/java/com/ventyx/security/webservice/soap/SecurityServiceSoapImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="34" selection-start="1098" selection-end="1098" vertical-scroll-proportion="0.43948296" />
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/com.ventyx.security.service.proxy.ProxyServlet">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>com.ventyx.security.service.proxy.ProxyServlet</OriginalElement>
+          <nodes>
+            <node x="" y="">org.springframework.stereotype.Component</node>
+            <node x="" y="">javax.servlet.http.HttpServlet</node>
+            <node x="" y="">javax.servlet.GenericServlet</node>
+            <node x="" y="">javax.servlet.Servlet</node>
+            <node x="" y="">javax.servlet.ServletConfig</node>
+            <node x="" y="">java.io.Serializable</node>
+            <node x="" y="">com.ventyx.security.service.proxy.ProxyServlet</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="172.0" y="131.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://SPRING/mappedClass=com.ventyx.security.service.proxy.ProxyServlet">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>SPRING</ID>
+          <OriginalElement>mappedClass=com.ventyx.security.service.proxy.ProxyServlet</OriginalElement>
+          <nodes>
+            <node x="" y="">module=security-service-impl;bean_name=tokenService;bean_class=com.ventyx.security.service.TokenService</node>
+            <node x="" y="">bean_class=com.ventyx.security.integration.configuration.dao.ServiceConfigurationDao;bean_name=serviceConfigurationDao;module=configuration-repository-integration</node>
+            <node x="" y="">bean_class=com.ventyx.security.service.ConfigurationService;module=security-service-impl;bean_name=configurationService</node>
+            <node x="" y="">offset=935;module=security-service-webproxy;fileset=fileset1;context=C:/projects/workspaces/security-service/security-service-webproxy/src/main/resources/spring/security-service-webproxy-context.xml;tag=context:component-scan</node>
+            <node x="" y="">bean_class=org.springframework.orm.hibernate3.annotation.AnnotationSessionFactoryBean;bean_name=sessionFactory;module=security-service-webproxy;fileset=fileset1;context=C:/projects/workspaces/security-service/security-service-webproxy/src/main/resources/spring/security-service-webproxy-context.xml</node>
+            <node x="" y="">bean_name=dataSource;module=security-service-webproxy;fileset=fileset1;context=C:/projects/workspaces/security-service/security-service-webproxy/src/main/resources/spring/security-service-webproxy-context.xml;bean_class=org.springframework.jdbc.datasource.DriverManagerDataSource</node>
+            <node x="" y="">bean_class=org.springframework.beans.factory.config.PropertyPlaceholderConfigurer;tag=context:property-placeholder;module=security-service-webproxy;fileset=fileset1;context=C:/projects/workspaces/security-service/security-service-webproxy/src/main/resources/spring/security-service-webproxy-context.xml;offset=1001</node>
+            <node x="" y="">bean_class=com.ventyx.security.integration.ldap.LdapIntegrationService;bean_name=ldapIntegrationService;module=ldap-repository-integration</node>
+            <node x="" y="">bean_class=org.springframework.cache.ehcache.EhCacheManagerFactoryBean;bean_name=ehcache;module=security-service-webproxy;fileset=fileset1;context=C:/projects/workspaces/security-service/security-service-webproxy/src/main/resources/spring/security-service-webproxy-context.xml</node>
+            <node x="" y="">bean_name=proxyServlet;module=security-service-webproxy;bean_class=com.ventyx.security.service.proxy.ProxyServlet;context=C:/projects/workspaces/security-service/security-service-webproxy/src/main/resources/spring/security-service-webproxy-context.xml</node>
+            <node x="" y="">bean_name=userService;bean_class=com.ventyx.security.api.UserService;module=security-service-commons</node>
+            <node x="" y="">bean_name=transactionManager;module=security-service-webproxy;fileset=fileset1;context=C:/projects/workspaces/security-service/security-service-webproxy/src/main/resources/spring/security-service-webproxy-context.xml;bean_class=org.springframework.orm.hibernate3.HibernateTransactionManager</node>
+            <node x="" y="">bean_name=tokenDao;bean_class=com.ventyx.security.integration.configuration.dao.TokenDao;module=configuration-repository-integration</node>
+            <node x="" y="">bean_class=com.ventyx.security.integration.ldap.ActiveDirectoryIntegrationService;bean_name=activeDirectoryIntegrationService;module=ldap-repository-integration</node>
+            <node x="" y="">bean_class=org.springframework.transaction.interceptor.TransactionInterceptor;tag=tx:annotation-driven;module=security-service-webproxy;fileset=fileset1;offset=2620;context=C:/projects/workspaces/security-service/security-service-webproxy/src/main/resources/spring/security-service-webproxy-context.xml</node>
+            <node x="" y="">bean_class=com.ventyx.security.integration.configuration.dao.AuthenticationDao;module=configuration-repository-integration;bean_name=authenticationDao</node>
+            <node x="" y="">bean_class=com.ventyx.security.integration.configuration.ServiceConfigurationIntegrationService;bean_name=serviceConfigurationIntegrationService;module=configuration-repository-integration</node>
+            <node x="" y="">bean_name=cacheManager;bean_class=org.springframework.cache.ehcache.EhCacheCacheManager;module=security-service-webproxy;fileset=fileset1;context=C:/projects/workspaces/security-service/security-service-webproxy/src/main/resources/spring/security-service-webproxy-context.xml</node>
+            <node x="" y="">bean_name=tokenIntegrationService;module=configuration-repository-integration;bean_class=com.ventyx.security.integration.configuration.TokenIntegrationService</node>
+            <node x="" y="">module=security-service-webproxy;fileset=fileset1;context=C:/projects/workspaces/security-service/security-service-webproxy/src/main/resources/spring/security-service-webproxy-context.xml;bean_name=context:annotation-config</node>
+            <node x="" y="">module=security-service-webproxy;tag=cache:annotation-driven;fileset=fileset1;offset=2725;context=C:/projects/workspaces/security-service/security-service-webproxy/src/main/resources/spring/security-service-webproxy-context.xml</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.9166666666666666" x="413.0" y="371.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Properties</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/security-service-webapi/src/main/java/com/ventyx/security/admin/LoginAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="16" selection-start="579" selection-end="588" vertical-scroll-proportion="0.20598802">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/security-service-webapi/src/main/java/com/ventyx/security/admin/Constants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="13" selection-start="86" selection-end="86" vertical-scroll-proportion="0.1017964">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/security-service-webproxy/src/main/java/com/ventyx/security/service/proxy/ProxyServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="160" column="81" selection-start="6972" selection-end="6972" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/security-service-sampleservices/src/main/resources/readme.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="0" selection-start="812" selection-end="812" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/security-service-commons/src/main/java/com/ventyx/security/api/model/ServiceConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="90" column="19" selection-start="2300" selection-end="2300" vertical-scroll-proportion="-32.64">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/security-service-commons/src/main/java/com/ventyx/security/api/model/Token.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="24" selection-start="751" selection-end="751" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/security-service-webapi/src/main/java/com/ventyx/security/webservice/rest/SecurityServiceRestImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="33" selection-start="1076" selection-end="1076" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/security-service-impl/src/main/java/com/ventyx/security/service/TokenService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="73" column="36" selection-start="3299" selection-end="3303" vertical-scroll-proportion="0.61926603">
+        <state line="500" column="37" selection-start="22202" selection-end="22202" vertical-scroll-proportion="0.8759124">
           <folding />
         </state>
       </provider>
@@ -1733,12 +1821,11 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
-          <last-edited>security-service-webapi:war</last-edited>
+          <last-edited>security-service-webproxy:war</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>

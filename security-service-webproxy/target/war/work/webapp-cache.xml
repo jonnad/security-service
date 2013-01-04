@@ -7,6 +7,7 @@
           <string>test.html</string>
           <string>WEB-INF/web.xml</string>
           <string>WEB-INF/classes/com/ventyx/security/service/proxy/ProxyServlet.class</string>
+          <string>WEB-INF/classes/ehcache/ehcache.xml</string>
           <string>WEB-INF/classes/env/local/activedirectory.properties</string>
           <string>WEB-INF/classes/env/local/database.properties</string>
           <string>WEB-INF/classes/env/local/ldapconnection.properties</string>
@@ -188,6 +189,18 @@
         <optional>false</optional>
       </dependency>
       <targetFileName>spring-context-support-3.1.2.RELEASE.jar</targetFileName>
+    </org.apache.maven.plugin.war.util.DependencyInfo>
+    <org.apache.maven.plugin.war.util.DependencyInfo>
+      <dependency>
+        <groupId>net.sf.ehcache</groupId>
+        <artifactId>ehcache-core</artifactId>
+        <version>2.6.0</version>
+        <type>jar</type>
+        <scope>compile</scope>
+        <exclusions/>
+        <optional>false</optional>
+      </dependency>
+      <targetFileName>ehcache-core-2.6.0.jar</targetFileName>
     </org.apache.maven.plugin.war.util.DependencyInfo>
     <org.apache.maven.plugin.war.util.DependencyInfo>
       <dependency>

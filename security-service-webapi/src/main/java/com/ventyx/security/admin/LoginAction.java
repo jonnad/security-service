@@ -5,11 +5,12 @@ import com.opensymphony.xwork2.ActionSupport;
 /**
  * Supports login functionality for the application
  *
- * public static final String ERROR = "error"
- public static final String INPUT = "input"
- public static final String LOGIN = "login"
- public static final String NONE = "none"
- public static final String SUCCESS = "success"
+    public static final String ERROR = "error"
+    public static final String INPUT = "input"
+    public static final String LOGIN = "login"
+    public static final String NONE = "none"
+    public static final String SUCCESS = "success"
+
  */
 public class LoginAction extends ActionSupport {
 

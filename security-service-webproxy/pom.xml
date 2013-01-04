@@ -60,6 +60,11 @@
             <artifactId>spring-context-support</artifactId>
         </dependency>
 
+        <dependency>
+            <groupId>net.sf.ehcache</groupId>
+            <artifactId>ehcache-core</artifactId>
+        </dependency>
+
         <!-- platform web dependencies -->
         <dependency>
             <groupId>javax.servlet</groupId>
