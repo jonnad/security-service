@@ -1,9 +1,0 @@
-{
-     "applicationId":"1",
-     "applicationUser":"client",
-     "applicationPassword":"password",
-     "serviceName":"",
-     "tokenFormat":"SAML_BASE64_ENCODED",
-     "userPrincipal":"",
-     "userPassword":""
- }

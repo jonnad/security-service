@@ -2,46 +2,360 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="45be2244-758e-4f8f-bf01-28bf994eab8c" name="Default" comment="Cleanup">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/security-service-webproxy/src/main/resources/ehcache/ehcache.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/security-service-commons/target/security-service-commons-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/security-service-commons/target/security-service-commons-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/security-service-impl/target/security-service-impl-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/security-service-impl/target/security-service-impl-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/security-service-integration/configuration-repository-integration/target/configuration-repository-integration-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/security-service-integration/configuration-repository-integration/target/configuration-repository-integration-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/security-service-integration/ldap-repository-integration/target/ldap-repository-integration-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/security-service-integration/ldap-repository-integration/target/ldap-repository-integration-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/security-service-sampleservices/target/sampleservices.war" afterPath="$PROJECT_DIR$/security-service-sampleservices/target/sampleservices.war" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/security-service-sampleservices/target/sampleservices/WEB-INF/lib/configuration-repository-integration-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/security-service-sampleservices/target/sampleservices/WEB-INF/lib/configuration-repository-integration-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/security-service-sampleservices/target/sampleservices/WEB-INF/lib/ldap-repository-integration-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/security-service-sampleservices/target/sampleservices/WEB-INF/lib/ldap-repository-integration-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/security-service-sampleservices/target/sampleservices/WEB-INF/lib/security-service-commons-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/security-service-sampleservices/target/sampleservices/WEB-INF/lib/security-service-commons-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/security-service-sampleservices/target/sampleservices/WEB-INF/lib/security-service-impl-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/security-service-sampleservices/target/sampleservices/WEB-INF/lib/security-service-impl-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/security-service-webapi/target/ROOT.war" afterPath="$PROJECT_DIR$/security-service-webapi/target/ROOT.war" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/security-service-webapi/target/ROOT/WEB-INF/lib/configuration-repository-integration-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/security-service-webapi/target/ROOT/WEB-INF/lib/configuration-repository-integration-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/security-service-webapi/target/ROOT/WEB-INF/lib/ldap-repository-integration-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/security-service-webapi/target/ROOT/WEB-INF/lib/ldap-repository-integration-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/security-service-webapi/target/ROOT/WEB-INF/lib/security-service-commons-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/security-service-webapi/target/ROOT/WEB-INF/lib/security-service-commons-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/security-service-webapi/target/ROOT/WEB-INF/lib/security-service-impl-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/security-service-webapi/target/ROOT/WEB-INF/lib/security-service-impl-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/security-service-webproxy/target/webproxy.war" afterPath="$PROJECT_DIR$/security-service-webproxy/target/webproxy.war" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/security-service-webproxy/target/webproxy/WEB-INF/lib/configuration-repository-integration-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/security-service-webproxy/target/webproxy/WEB-INF/lib/configuration-repository-integration-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/security-service-webproxy/target/webproxy/WEB-INF/lib/ldap-repository-integration-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/security-service-webproxy/target/webproxy/WEB-INF/lib/ldap-repository-integration-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/security-service-webproxy/target/webproxy/WEB-INF/lib/security-service-commons-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/security-service-webproxy/target/webproxy/WEB-INF/lib/security-service-commons-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/security-service-webproxy/target/webproxy/WEB-INF/lib/security-service-impl-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/security-service-webproxy/target/webproxy/WEB-INF/lib/security-service-impl-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/security-service-commons/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/security-service-commons/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/security-service-impl/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/security-service-impl/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/security-service-integration/configuration-repository-integration/src/main/resources/spring/configuration-repository-integration-context.xml" afterPath="$PROJECT_DIR$/security-service-integration/configuration-repository-integration/src/main/resources/spring/configuration-repository-integration-context.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/security-service-integration/configuration-repository-integration/target/classes/spring/configuration-repository-integration-context.xml" afterPath="$PROJECT_DIR$/security-service-integration/configuration-repository-integration/target/classes/spring/configuration-repository-integration-context.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/security-service-integration/configuration-repository-integration/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/security-service-integration/configuration-repository-integration/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/security-service-integration/ldap-repository-integration/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/security-service-integration/ldap-repository-integration/target/maven-archiver/pom.properties" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-commons\target\classes\com\ventyx\security\api\TokenGenerationRequest.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-commons\target\classes\com\ventyx\security\api\TokenGenerationResponse.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-commons\target\classes\com\ventyx\security\api\UserService.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-commons\target\classes\com\ventyx\security\api\model\Authentication.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-commons\target\classes\com\ventyx\security\api\model\Endpoint.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-commons\target\classes\com\ventyx\security\api\model\Token.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-commons\target\classes\com\ventyx\security\api\model\TokenFormat.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-commons\target\classes\com\ventyx\security\api\model\User.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-commons\target\classes\com\ventyx\security\exception\SecurityServiceException.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-commons\target\classes\com\ventyx\security\utils\SamlTokenGenerator.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-commons\target\classes\com\ventyx\security\utils\SamlWriter$SAMLInputContainer.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-commons\target\classes\com\ventyx\security\utils\SamlWriter.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-commons\target\classes\com\ventyx\security\utils\TokenGenerator.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-commons\target\maven-archiver\pom.properties" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-commons\target\security-service-commons-1.0-SNAPSHOT.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-impl\target\classes\com\ventyx\security\service\ConfigurationService.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-impl\target\classes\com\ventyx\security\service\TokenService.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-impl\target\classes\spring\security-service-impl-context.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-impl\target\maven-archiver\pom.properties" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-impl\target\security-service-impl-1.0-SNAPSHOT.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-impl\target\test-classes\com\ventyx\security\service\ConfigurationServiceTest.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-impl\target\test-classes\com\ventyx\security\service\TokenServiceTest.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-integration\configuration-repository-integration\target\classes\com\ventyx\security\integration\configuration\dao\AuthenticationDao.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-integration\configuration-repository-integration\target\classes\com\ventyx\security\integration\configuration\dao\ServiceConfigurationDao.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-integration\configuration-repository-integration\target\classes\spring\configuration-repository-integration-context.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-integration\configuration-repository-integration\target\configuration-repository-integration-1.0-SNAPSHOT.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-integration\configuration-repository-integration\target\maven-archiver\pom.properties" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-integration\configuration-repository-integration\target\test-classes\META-INF\persistence.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-integration\configuration-repository-integration\target\test-classes\configuration-repository-test.properties" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-integration\configuration-repository-integration\target\test-classes\hbm2ddl.properties" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-integration\configuration-repository-integration\target\test-classes\log4j.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-integration\configuration-repository-integration\target\test-classes\spring\configuration-repository-integration-test-context.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-integration\ldap-repository-integration\target\classes\com\ventyx\security\integration\ldap\ActiveDirectoryIntegrationService.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-integration\ldap-repository-integration\target\classes\com\ventyx\security\integration\ldap\LdapIntegrationService.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-integration\ldap-repository-integration\target\classes\spring\ldap-repository-integration-context.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-integration\ldap-repository-integration\target\ldap-repository-integration-1.0-SNAPSHOT.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-integration\ldap-repository-integration\target\maven-archiver\pom.properties" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-integration\ldap-repository-integration\target\test-classes\activedirectory.internet.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-integration\ldap-repository-integration\target\test-classes\com\ventyx\security\integration\ldap\ActiveDirectoryIntegrationServiceTest.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-integration\ldap-repository-integration\target\test-classes\com\ventyx\security\integration\ldap\LdapIntegrationServiceTest.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-integration\ldap-repository-integration\target\test-classes\com\ventyx\security\integration\ldap\RetrieveUserAttributes.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-integration\ldap-repository-integration\target\test-classes\env\local\activedirectory.properties" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-integration\ldap-repository-integration\target\test-classes\env\local\ldapconnection.properties" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-integration\ldap-repository-integration\target\test-classes\spring\ldap-repository-integration-test-context.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-sampleservices\target\classes\com\ventyx\security\webservice\http\BusinessServlet.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-sampleservices\target\classes\com\ventyx\security\webservice\rest\BusinessRestService.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-sampleservices\target\classes\com\ventyx\security\webservice\soap\BusinessSoapService.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-sampleservices\target\classes\com\ventyx\security\webservice\soap\BusinessSoapServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-sampleservices\target\classes\spring\security-service-sample-services-context.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-sampleservices\target\maven-archiver\pom.properties" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-sampleservices\target\sampleservices.war" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-sampleservices\target\sampleservices\WEB-INF\classes\com\ventyx\security\webservice\http\BusinessServlet.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-sampleservices\target\sampleservices\WEB-INF\classes\com\ventyx\security\webservice\rest\BusinessRestService.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-sampleservices\target\sampleservices\WEB-INF\classes\com\ventyx\security\webservice\soap\BusinessSoapService.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-sampleservices\target\sampleservices\WEB-INF\classes\com\ventyx\security\webservice\soap\BusinessSoapServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-sampleservices\target\sampleservices\WEB-INF\classes\spring\security-service-sample-services-context.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-sampleservices\target\sampleservices\WEB-INF\lib\antlr-2.7.6.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-sampleservices\target\sampleservices\WEB-INF\lib\aopalliance-1.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-sampleservices\target\sampleservices\WEB-INF\lib\asm-3.3.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-sampleservices\target\sampleservices\WEB-INF\lib\bcprov-jdk15-1.45.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-sampleservices\target\sampleservices\WEB-INF\lib\c3p0-0.9.1.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-sampleservices\target\sampleservices\WEB-INF\lib\cglib-2.2.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-sampleservices\target\sampleservices\WEB-INF\lib\commons-codec-1.3.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-sampleservices\target\sampleservices\WEB-INF\lib\commons-collections-3.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-sampleservices\target\sampleservices\WEB-INF\lib\commons-configuration-1.8.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-sampleservices\target\sampleservices\WEB-INF\lib\commons-httpclient-3.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-sampleservices\target\sampleservices\WEB-INF\lib\commons-lang-2.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-sampleservices\target\sampleservices\WEB-INF\lib\commons-logging-1.1.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-sampleservices\target\sampleservices\WEB-INF\lib\configuration-repository-integration-1.0-SNAPSHOT.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-sampleservices\target\sampleservices\WEB-INF\lib\cxf-api-2.7.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-sampleservices\target\sampleservices\WEB-INF\lib\cxf-rt-bindings-soap-2.7.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-sampleservices\target\sampleservices\WEB-INF\lib\cxf-rt-bindings-xml-2.7.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-sampleservices\target\sampleservices\WEB-INF\lib\cxf-rt-core-2.7.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-sampleservices\target\sampleservices\WEB-INF\lib\cxf-rt-databinding-jaxb-2.7.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-sampleservices\target\sampleservices\WEB-INF\lib\cxf-rt-frontend-jaxrs-2.7.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-sampleservices\target\sampleservices\WEB-INF\lib\cxf-rt-frontend-jaxws-2.7.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-sampleservices\target\sampleservices\WEB-INF\lib\cxf-rt-frontend-simple-2.7.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-sampleservices\target\sampleservices\WEB-INF\lib\cxf-rt-rs-security-oauth2-2.7.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-sampleservices\target\sampleservices\WEB-INF\lib\cxf-rt-transports-http-2.7.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-sampleservices\target\sampleservices\WEB-INF\lib\cxf-rt-transports-http-jetty-2.7.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-sampleservices\target\sampleservices\WEB-INF\lib\cxf-rt-ws-addr-2.7.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-sampleservices\target\sampleservices\WEB-INF\lib\cxf-rt-ws-policy-2.7.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-sampleservices\target\sampleservices\WEB-INF\lib\dom4j-1.6.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-sampleservices\target\sampleservices\WEB-INF\lib\esapi-2.0GA.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-sampleservices\target\sampleservices\WEB-INF\lib\geronimo-javamail_1.4_spec-1.7.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-sampleservices\target\sampleservices\WEB-INF\lib\geronimo-servlet_3.0_spec-1.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-sampleservices\target\sampleservices\WEB-INF\lib\hibernate-annotations-3.5.6-Final.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-sampleservices\target\sampleservices\WEB-INF\lib\hibernate-commons-annotations-3.2.0.Final.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-sampleservices\target\sampleservices\WEB-INF\lib\hibernate-core-3.5.6-Final.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-sampleservices\target\sampleservices\WEB-INF\lib\hibernate-entitymanager-3.5.6-Final.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-sampleservices\target\sampleservices\WEB-INF\lib\hibernate-jpa-2.0-api-1.0.0.Final.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-sampleservices\target\sampleservices\WEB-INF\lib\jackson-core-asl-1.8.6.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-sampleservices\target\sampleservices\WEB-INF\lib\jackson-jaxrs-1.8.6.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-sampleservices\target\sampleservices\WEB-INF\lib\jackson-mapper-asl-1.8.6.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-sampleservices\target\sampleservices\WEB-INF\lib\javassist-3.9.0.GA.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-sampleservices\target\sampleservices\WEB-INF\lib\javax.ws.rs-api-2.0-m10.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-sampleservices\target\sampleservices\WEB-INF\lib\jcip-annotations-1.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-sampleservices\target\sampleservices\WEB-INF\lib\jcl-over-slf4j-1.6.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-sampleservices\target\sampleservices\WEB-INF\lib\jetty-security-8.1.7.v20120910.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-sampleservices\target\sampleservices\WEB-INF\lib\joda-time-1.6.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-sampleservices\target\sampleservices\WEB-INF\lib\jta-1.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-sampleservices\target\sampleservices\WEB-INF\lib\jul-to-slf4j-1.6.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-sampleservices\target\sampleservices\WEB-INF\lib\ldap-repository-integration-1.0-SNAPSHOT.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-sampleservices\target\sampleservices\WEB-INF\lib\log4j-1.2.17.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-sampleservices\target\sampleservices\WEB-INF\lib\mysql-connector-java-5.1.21.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-sampleservices\target\sampleservices\WEB-INF\lib\neethi-3.0.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-sampleservices\target\sampleservices\WEB-INF\lib\not-yet-commons-ssl-0.3.9.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-sampleservices\target\sampleservices\WEB-INF\lib\opensaml-2.5.1-1.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-sampleservices\target\sampleservices\WEB-INF\lib\openws-1.4.2-1.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-sampleservices\target\sampleservices\WEB-INF\lib\security-service-commons-1.0-SNAPSHOT.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-sampleservices\target\sampleservices\WEB-INF\lib\security-service-impl-1.0-SNAPSHOT.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-sampleservices\target\sampleservices\WEB-INF\lib\serializer-2.7.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-sampleservices\target\sampleservices\WEB-INF\lib\slf4j-api-1.6.6.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-sampleservices\target\sampleservices\WEB-INF\lib\slf4j-log4j12-1.6.6.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-sampleservices\target\sampleservices\WEB-INF\lib\spring-aop-3.1.2.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-sampleservices\target\sampleservices\WEB-INF\lib\spring-asm-3.1.2.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-sampleservices\target\sampleservices\WEB-INF\lib\spring-beans-3.1.2.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-sampleservices\target\sampleservices\WEB-INF\lib\spring-context-3.1.2.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-sampleservices\target\sampleservices\WEB-INF\lib\spring-context-support-3.1.2.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-sampleservices\target\sampleservices\WEB-INF\lib\spring-core-3.1.2.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-sampleservices\target\sampleservices\WEB-INF\lib\spring-expression-3.1.2.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-sampleservices\target\sampleservices\WEB-INF\lib\spring-jdbc-3.1.2.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-sampleservices\target\sampleservices\WEB-INF\lib\spring-orm-3.1.2.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-sampleservices\target\sampleservices\WEB-INF\lib\spring-tx-3.1.2.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-sampleservices\target\sampleservices\WEB-INF\lib\spring-web-3.1.2.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-sampleservices\target\sampleservices\WEB-INF\lib\stax2-api-3.1.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-sampleservices\target\sampleservices\WEB-INF\lib\unboundid-ldapsdk-2.3.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-sampleservices\target\sampleservices\WEB-INF\lib\velocity-1.5.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-sampleservices\target\sampleservices\WEB-INF\lib\woodstox-core-asl-4.1.4.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-sampleservices\target\sampleservices\WEB-INF\lib\wsdl4j-1.6.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-sampleservices\target\sampleservices\WEB-INF\lib\xalan-2.7.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-sampleservices\target\sampleservices\WEB-INF\lib\xercesImpl-2.10.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-sampleservices\target\sampleservices\WEB-INF\lib\xml-apis-1.4.01.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-sampleservices\target\sampleservices\WEB-INF\lib\xml-resolver-1.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-sampleservices\target\sampleservices\WEB-INF\lib\xmlschema-core-2.0.3.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-sampleservices\target\sampleservices\WEB-INF\lib\xmlsec-1.4.4.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-sampleservices\target\sampleservices\WEB-INF\lib\xmltooling-1.3.2-1.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-sampleservices\target\sampleservices\WEB-INF\web.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-sampleservices\target\test-classes\TokenGenerationRequest" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-sampleservices\target\war\work\webapp-cache.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webapi\target\ROOT.war" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webapi\target\ROOT\WEB-INF\admin\index.jsp" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webapi\target\ROOT\WEB-INF\admin\login.jsp" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webapi\target\ROOT\WEB-INF\classes\com\ventyx\security\admin\Constants.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webapi\target\ROOT\WEB-INF\classes\com\ventyx\security\admin\LoginAction.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webapi\target\ROOT\WEB-INF\classes\com\ventyx\security\admin\interceptor\SecurityInterceptor.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webapi\target\ROOT\WEB-INF\classes\com\ventyx\security\webservice\SecurityService.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webapi\target\ROOT\WEB-INF\classes\com\ventyx\security\webservice\rest\SecurityServiceRestImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webapi\target\ROOT\WEB-INF\classes\com\ventyx\security\webservice\soap\SecurityServiceSoapImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webapi\target\ROOT\WEB-INF\classes\env\local\activedirectory.properties" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webapi\target\ROOT\WEB-INF\classes\env\local\database.properties" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webapi\target\ROOT\WEB-INF\classes\env\local\ldapconnection.properties" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webapi\target\ROOT\WEB-INF\classes\spring\security-service-webapi-context.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webapi\target\ROOT\WEB-INF\classes\struts.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webapi\target\ROOT\WEB-INF\lib\antlr-2.7.6.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webapi\target\ROOT\WEB-INF\lib\aopalliance-1.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webapi\target\ROOT\WEB-INF\lib\asm-3.3.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webapi\target\ROOT\WEB-INF\lib\asm-commons-3.3.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webapi\target\ROOT\WEB-INF\lib\asm-tree-3.3.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webapi\target\ROOT\WEB-INF\lib\bcprov-jdk15-1.45.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webapi\target\ROOT\WEB-INF\lib\c3p0-0.9.1.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webapi\target\ROOT\WEB-INF\lib\cglib-2.2.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webapi\target\ROOT\WEB-INF\lib\commons-beanutils-1.7.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webapi\target\ROOT\WEB-INF\lib\commons-codec-1.3.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webapi\target\ROOT\WEB-INF\lib\commons-collections-3.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webapi\target\ROOT\WEB-INF\lib\commons-configuration-1.8.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webapi\target\ROOT\WEB-INF\lib\commons-fileupload-1.2.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webapi\target\ROOT\WEB-INF\lib\commons-httpclient-3.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webapi\target\ROOT\WEB-INF\lib\commons-io-2.0.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webapi\target\ROOT\WEB-INF\lib\commons-lang-2.3.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webapi\target\ROOT\WEB-INF\lib\commons-lang3-3.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webapi\target\ROOT\WEB-INF\lib\commons-logging-1.1.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webapi\target\ROOT\WEB-INF\lib\configuration-repository-integration-1.0-SNAPSHOT.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webapi\target\ROOT\WEB-INF\lib\cxf-api-2.7.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webapi\target\ROOT\WEB-INF\lib\cxf-rt-bindings-soap-2.7.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webapi\target\ROOT\WEB-INF\lib\cxf-rt-bindings-xml-2.7.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webapi\target\ROOT\WEB-INF\lib\cxf-rt-core-2.7.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webapi\target\ROOT\WEB-INF\lib\cxf-rt-databinding-jaxb-2.7.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webapi\target\ROOT\WEB-INF\lib\cxf-rt-frontend-jaxrs-2.7.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webapi\target\ROOT\WEB-INF\lib\cxf-rt-frontend-jaxws-2.7.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webapi\target\ROOT\WEB-INF\lib\cxf-rt-frontend-simple-2.7.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webapi\target\ROOT\WEB-INF\lib\cxf-rt-rs-security-oauth2-2.7.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webapi\target\ROOT\WEB-INF\lib\cxf-rt-transports-http-2.7.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webapi\target\ROOT\WEB-INF\lib\cxf-rt-transports-http-jetty-2.7.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webapi\target\ROOT\WEB-INF\lib\cxf-rt-ws-addr-2.7.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webapi\target\ROOT\WEB-INF\lib\cxf-rt-ws-policy-2.7.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webapi\target\ROOT\WEB-INF\lib\displaytag-1.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webapi\target\ROOT\WEB-INF\lib\dom4j-1.6.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webapi\target\ROOT\WEB-INF\lib\esapi-2.0GA.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webapi\target\ROOT\WEB-INF\lib\freemarker-2.3.19.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webapi\target\ROOT\WEB-INF\lib\geronimo-javamail_1.4_spec-1.7.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webapi\target\ROOT\WEB-INF\lib\geronimo-servlet_3.0_spec-1.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webapi\target\ROOT\WEB-INF\lib\hibernate-annotations-3.5.6-Final.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webapi\target\ROOT\WEB-INF\lib\hibernate-commons-annotations-3.2.0.Final.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webapi\target\ROOT\WEB-INF\lib\hibernate-core-3.5.6-Final.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webapi\target\ROOT\WEB-INF\lib\hibernate-entitymanager-3.5.6-Final.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webapi\target\ROOT\WEB-INF\lib\hibernate-jpa-2.0-api-1.0.0.Final.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webapi\target\ROOT\WEB-INF\lib\itext-1.3.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webapi\target\ROOT\WEB-INF\lib\jackson-core-asl-1.8.6.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webapi\target\ROOT\WEB-INF\lib\jackson-jaxrs-1.8.6.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webapi\target\ROOT\WEB-INF\lib\jackson-mapper-asl-1.8.6.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webapi\target\ROOT\WEB-INF\lib\javassist-3.9.0.GA.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webapi\target\ROOT\WEB-INF\lib\javax.ws.rs-api-2.0-m10.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webapi\target\ROOT\WEB-INF\lib\jcip-annotations-1.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webapi\target\ROOT\WEB-INF\lib\jcl-over-slf4j-1.6.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webapi\target\ROOT\WEB-INF\lib\jcl104-over-slf4j-1.4.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webapi\target\ROOT\WEB-INF\lib\jetty-security-8.1.7.v20120910.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webapi\target\ROOT\WEB-INF\lib\joda-time-1.6.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webapi\target\ROOT\WEB-INF\lib\jta-1.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webapi\target\ROOT\WEB-INF\lib\jul-to-slf4j-1.6.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webapi\target\ROOT\WEB-INF\lib\ldap-repository-integration-1.0-SNAPSHOT.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webapi\target\ROOT\WEB-INF\lib\log4j-1.2.17.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webapi\target\ROOT\WEB-INF\lib\mysql-connector-java-5.1.21.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webapi\target\ROOT\WEB-INF\lib\neethi-3.0.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webapi\target\ROOT\WEB-INF\lib\not-yet-commons-ssl-0.3.9.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webapi\target\ROOT\WEB-INF\lib\ognl-3.0.5.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webapi\target\ROOT\WEB-INF\lib\opensaml-2.5.1-1.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webapi\target\ROOT\WEB-INF\lib\openws-1.4.2-1.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webapi\target\ROOT\WEB-INF\lib\security-service-commons-1.0-SNAPSHOT.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webapi\target\ROOT\WEB-INF\lib\security-service-impl-1.0-SNAPSHOT.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webapi\target\ROOT\WEB-INF\lib\serializer-2.7.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webapi\target\ROOT\WEB-INF\lib\slf4j-api-1.6.6.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webapi\target\ROOT\WEB-INF\lib\slf4j-log4j12-1.6.6.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webapi\target\ROOT\WEB-INF\lib\spring-aop-3.1.2.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webapi\target\ROOT\WEB-INF\lib\spring-asm-3.1.2.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webapi\target\ROOT\WEB-INF\lib\spring-beans-3.1.2.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webapi\target\ROOT\WEB-INF\lib\spring-context-3.1.2.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webapi\target\ROOT\WEB-INF\lib\spring-context-support-3.1.2.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webapi\target\ROOT\WEB-INF\lib\spring-core-3.1.2.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webapi\target\ROOT\WEB-INF\lib\spring-expression-3.1.2.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webapi\target\ROOT\WEB-INF\lib\spring-jdbc-3.1.2.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webapi\target\ROOT\WEB-INF\lib\spring-orm-3.1.2.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webapi\target\ROOT\WEB-INF\lib\spring-tx-3.1.2.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webapi\target\ROOT\WEB-INF\lib\spring-web-3.1.2.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webapi\target\ROOT\WEB-INF\lib\stax2-api-3.1.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webapi\target\ROOT\WEB-INF\lib\struts2-config-browser-plugin-2.3.4.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webapi\target\ROOT\WEB-INF\lib\struts2-core-2.3.4.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webapi\target\ROOT\WEB-INF\lib\struts2-spring-plugin-2.3.4.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webapi\target\ROOT\WEB-INF\lib\unboundid-ldapsdk-2.3.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webapi\target\ROOT\WEB-INF\lib\velocity-1.5.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webapi\target\ROOT\WEB-INF\lib\woodstox-core-asl-4.1.4.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webapi\target\ROOT\WEB-INF\lib\wsdl4j-1.6.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webapi\target\ROOT\WEB-INF\lib\xalan-2.7.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webapi\target\ROOT\WEB-INF\lib\xercesImpl-2.10.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webapi\target\ROOT\WEB-INF\lib\xml-apis-1.4.01.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webapi\target\ROOT\WEB-INF\lib\xml-resolver-1.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webapi\target\ROOT\WEB-INF\lib\xmlschema-core-2.0.3.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webapi\target\ROOT\WEB-INF\lib\xmlsec-1.4.4.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webapi\target\ROOT\WEB-INF\lib\xmltooling-1.3.2-1.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webapi\target\ROOT\WEB-INF\lib\xwork-core-2.3.4.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webapi\target\ROOT\WEB-INF\web.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webapi\target\classes\com\ventyx\security\admin\Constants.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webapi\target\classes\com\ventyx\security\admin\LoginAction.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webapi\target\classes\com\ventyx\security\admin\interceptor\SecurityInterceptor.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webapi\target\classes\com\ventyx\security\webservice\SecurityService.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webapi\target\classes\com\ventyx\security\webservice\rest\SecurityServiceRestImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webapi\target\classes\com\ventyx\security\webservice\soap\SecurityServiceSoapImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webapi\target\classes\env\local\activedirectory.properties" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webapi\target\classes\env\local\database.properties" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webapi\target\classes\env\local\ldapconnection.properties" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webapi\target\classes\spring\security-service-webapi-context.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webapi\target\classes\struts.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webapi\target\maven-archiver\pom.properties" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webapi\target\test-classes\TokenGenerationRequest" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webapi\target\war\work\webapp-cache.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webproxy\target\classes\com\ventyx\security\service\proxy\ProxyServlet.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webproxy\target\classes\env\local\activedirectory.properties" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webproxy\target\classes\env\local\database.properties" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webproxy\target\classes\env\local\ldapconnection.properties" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webproxy\target\classes\log4j.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webproxy\target\classes\security-service-webproxy.properties" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webproxy\target\classes\spring\security-service-webproxy-context.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webproxy\target\maven-archiver\pom.properties" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webproxy\target\test-classes\com\ventyx\security\service\proxy\ProxyServletIntegrationTest.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webproxy\target\test-classes\com\ventyx\security\service\proxy\ProxyServletTest.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webproxy\target\test-classes\jetty-test-datasource.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webproxy\target\test-classes\tokenRequest.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webproxy\target\war\work\webapp-cache.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webproxy\target\webproxy.war" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webproxy\target\webproxy\WEB-INF\classes\com\ventyx\security\service\proxy\ProxyServlet.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webproxy\target\webproxy\WEB-INF\classes\env\local\activedirectory.properties" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webproxy\target\webproxy\WEB-INF\classes\env\local\database.properties" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webproxy\target\webproxy\WEB-INF\classes\env\local\ldapconnection.properties" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webproxy\target\webproxy\WEB-INF\classes\log4j.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webproxy\target\webproxy\WEB-INF\classes\security-service-webproxy.properties" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webproxy\target\webproxy\WEB-INF\classes\spring\security-service-webproxy-context.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webproxy\target\webproxy\WEB-INF\lib\antlr-2.7.6.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webproxy\target\webproxy\WEB-INF\lib\aopalliance-1.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webproxy\target\webproxy\WEB-INF\lib\bcprov-jdk15-1.45.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webproxy\target\webproxy\WEB-INF\lib\c3p0-0.9.1.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webproxy\target\webproxy\WEB-INF\lib\cglib-2.2.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webproxy\target\webproxy\WEB-INF\lib\commons-codec-1.4.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webproxy\target\webproxy\WEB-INF\lib\commons-collections-3.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webproxy\target\webproxy\WEB-INF\lib\commons-httpclient-3.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webproxy\target\webproxy\WEB-INF\lib\commons-lang-2.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webproxy\target\webproxy\WEB-INF\lib\commons-logging-1.1.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webproxy\target\webproxy\WEB-INF\lib\configuration-repository-integration-1.0-SNAPSHOT.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webproxy\target\webproxy\WEB-INF\lib\dom4j-1.6.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webproxy\target\webproxy\WEB-INF\lib\esapi-2.0GA.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webproxy\target\webproxy\WEB-INF\lib\hibernate-annotations-3.5.6-Final.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webproxy\target\webproxy\WEB-INF\lib\hibernate-commons-annotations-3.2.0.Final.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webproxy\target\webproxy\WEB-INF\lib\hibernate-core-3.5.6-Final.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webproxy\target\webproxy\WEB-INF\lib\hibernate-entitymanager-3.5.6-Final.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webproxy\target\webproxy\WEB-INF\lib\hibernate-jpa-2.0-api-1.0.0.Final.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webproxy\target\webproxy\WEB-INF\lib\httpclient-4.1.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webproxy\target\webproxy\WEB-INF\lib\httpcore-4.1.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webproxy\target\webproxy\WEB-INF\lib\javassist-3.9.0.GA.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webproxy\target\webproxy\WEB-INF\lib\jcip-annotations-1.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webproxy\target\webproxy\WEB-INF\lib\jcl-over-slf4j-1.6.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webproxy\target\webproxy\WEB-INF\lib\joda-time-1.6.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webproxy\target\webproxy\WEB-INF\lib\jsp-api-2.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webproxy\target\webproxy\WEB-INF\lib\jta-1.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webproxy\target\webproxy\WEB-INF\lib\jul-to-slf4j-1.6.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webproxy\target\webproxy\WEB-INF\lib\ldap-repository-integration-1.0-SNAPSHOT.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webproxy\target\webproxy\WEB-INF\lib\log4j-1.2.17.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webproxy\target\webproxy\WEB-INF\lib\mysql-connector-java-5.1.21.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webproxy\target\webproxy\WEB-INF\lib\not-yet-commons-ssl-0.3.9.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webproxy\target\webproxy\WEB-INF\lib\opensaml-2.5.1-1.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webproxy\target\webproxy\WEB-INF\lib\openws-1.4.2-1.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webproxy\target\webproxy\WEB-INF\lib\security-service-commons-1.0-SNAPSHOT.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webproxy\target\webproxy\WEB-INF\lib\security-service-impl-1.0-SNAPSHOT.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webproxy\target\webproxy\WEB-INF\lib\serializer-2.7.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webproxy\target\webproxy\WEB-INF\lib\servlet-api-2.4.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webproxy\target\webproxy\WEB-INF\lib\slf4j-api-1.6.6.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webproxy\target\webproxy\WEB-INF\lib\slf4j-log4j12-1.6.6.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webproxy\target\webproxy\WEB-INF\lib\spring-aop-3.1.2.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webproxy\target\webproxy\WEB-INF\lib\spring-asm-3.1.2.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webproxy\target\webproxy\WEB-INF\lib\spring-beans-3.1.2.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webproxy\target\webproxy\WEB-INF\lib\spring-context-3.1.2.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webproxy\target\webproxy\WEB-INF\lib\spring-context-support-3.1.2.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webproxy\target\webproxy\WEB-INF\lib\spring-core-3.1.2.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webproxy\target\webproxy\WEB-INF\lib\spring-expression-3.1.2.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webproxy\target\webproxy\WEB-INF\lib\spring-jdbc-3.1.2.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webproxy\target\webproxy\WEB-INF\lib\spring-orm-3.1.2.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webproxy\target\webproxy\WEB-INF\lib\spring-tx-3.1.2.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webproxy\target\webproxy\WEB-INF\lib\spring-web-3.1.2.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webproxy\target\webproxy\WEB-INF\lib\unboundid-ldapsdk-2.3.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webproxy\target\webproxy\WEB-INF\lib\velocity-1.5.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webproxy\target\webproxy\WEB-INF\lib\xalan-2.7.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webproxy\target\webproxy\WEB-INF\lib\xercesImpl-2.10.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webproxy\target\webproxy\WEB-INF\lib\xml-apis-1.4.01.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webproxy\target\webproxy\WEB-INF\lib\xml-resolver-1.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webproxy\target\webproxy\WEB-INF\lib\xmlsec-1.4.4.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webproxy\target\webproxy\WEB-INF\lib\xmltooling-1.3.2-1.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webproxy\target\webproxy\WEB-INF\web.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\workspaces\security-service\security-service-webproxy\target\webproxy\test.html" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/security-service-commons/security-service-commons.iml" afterPath="$PROJECT_DIR$/security-service-commons/security-service-commons.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/security-service-impl/security-service-impl.iml" afterPath="$PROJECT_DIR$/security-service-impl/security-service-impl.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/security-service-integration/configuration-repository-integration/configuration-repository-integration.iml" afterPath="$PROJECT_DIR$/security-service-integration/configuration-repository-integration/configuration-repository-integration.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/security-service-integration/ldap-repository-integration/ldap-repository-integration.iml" afterPath="$PROJECT_DIR$/security-service-integration/ldap-repository-integration/ldap-repository-integration.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/security-service-sampleservices/security-service-sampleservices.iml" afterPath="$PROJECT_DIR$/security-service-sampleservices/security-service-sampleservices.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/security-service-sampleservices/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/security-service-sampleservices/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/security-service-sampleservices/target/war/work/webapp-cache.xml" afterPath="$PROJECT_DIR$/security-service-sampleservices/target/war/work/webapp-cache.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/security-service-webapi/security-service-webapi.iml" afterPath="$PROJECT_DIR$/security-service-webapi/security-service-webapi.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/security-service-webapi/src/main/java/com/ventyx/security/admin/LoginAction.java" afterPath="$PROJECT_DIR$/security-service-webapi/src/main/java/com/ventyx/security/admin/LoginAction.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/security-service-webapi/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/security-service-webapi/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/security-service-webapi/target/war/work/webapp-cache.xml" afterPath="$PROJECT_DIR$/security-service-webapi/target/war/work/webapp-cache.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/security-service-webproxy/pom.xml" afterPath="$PROJECT_DIR$/security-service-webproxy/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/security-service-webproxy/security-service-webproxy.iml" afterPath="$PROJECT_DIR$/security-service-webproxy/security-service-webproxy.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/security-service-webproxy/src/main/resources/spring/security-service-webproxy-context.xml" afterPath="$PROJECT_DIR$/security-service-webproxy/src/main/resources/spring/security-service-webproxy-context.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/security-service-webproxy/target/classes/spring/security-service-webproxy-context.xml" afterPath="$PROJECT_DIR$/security-service-webproxy/target/classes/spring/security-service-webproxy-context.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/security-service-webproxy/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/security-service-webproxy/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/security-service-webproxy/target/war/work/webapp-cache.xml" afterPath="$PROJECT_DIR$/security-service-webproxy/target/war/work/webapp-cache.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/security-service-webproxy/target/webproxy/WEB-INF/classes/spring/security-service-webproxy-context.xml" afterPath="$PROJECT_DIR$/security-service-webproxy/target/webproxy/WEB-INF/classes/spring/security-service-webproxy-context.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/security-service.iws" afterPath="$PROJECT_DIR$/security-service.iws" />
     </list>
     <ignored path="security-service.iws" />
@@ -437,6 +751,19 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/security-service-webproxy/src/main/java/com/ventyx/security/service/proxy/ProxyServlet.java" line="194" class="com.ventyx.security.service.proxy.ProxyServlet" package="com.ventyx.security.service.proxy">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="false" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
     </line_breakpoints>
     <breakpoint_any>
       <breakpoint>
@@ -508,7 +835,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/security-service-webproxy/src/test/java/com/ventyx/security/service/proxy/ProxyServletIntegrationTest.java" />
         <option value="$PROJECT_DIR$/security-service-integration/configuration-repository-integration/src/main/java/com/ventyx/security/integration/configuration/ServiceConfigurationIntegrationService.java" />
         <option value="$PROJECT_DIR$/security-service-impl/src/main/resources/spring/security-service-impl-context.xml" />
         <option value="$PROJECT_DIR$/security-service-integration/configuration-repository-integration/src/main/resources/ehcache/ehcache.xml" />
@@ -524,6 +850,7 @@
         <option value="$PROJECT_DIR$/security-service-webproxy/src/main/resources/spring/security-service-webproxy-context.xml" />
         <option value="$PROJECT_DIR$/security-service-webproxy/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/security-service-webapi/src/main/java/com/ventyx/security/admin/LoginAction.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -634,6 +961,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="security-service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="security-service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="security-service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="security-service-integration" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1499,7 +1840,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1696" height="1036" extended-state="6" />
+    <frame x="-8" y="-8" width="1696" height="1036" extended-state="7" />
     <editor active="false" />
     <layout>
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1508,25 +1849,25 @@
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.6643836" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2488372" sideWeight="0.9975649" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24771689" sideWeight="0.9975649" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32965687" sideWeight="0.6643836" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32990867" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32762557" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24448529" sideWeight="0.22260274" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18711276" sideWeight="0.75116277" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15625" sideWeight="0.7043379" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23039216" sideWeight="0.70348835" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29651162" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23039216" sideWeight="0.7043379" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2956621" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.13357843" sideWeight="0.13926941" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2496902" sideWeight="0.70348835" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22674419" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32790697" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -1624,42 +1965,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/security-service-integration/configuration-repository-integration/src/main/resources/ehcache/ehcache.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="21" selection-start="582" selection-end="582" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/security-service-webproxy/src/main/resources/ehcache/ehcache.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="111" selection-start="1037" selection-end="1037" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/security-service-integration/configuration-repository-integration/src/main/resources/spring/configuration-repository-integration-context.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="91" selection-start="2761" selection-end="2761" vertical-scroll-proportion="0.0" />
-      </provider>
-      <provider editor-type-id="com.intellij.spring.perspectives.SpringBeansStructureEditorProvider">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/security-service-integration/configuration-repository-integration/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="0" selection-start="1479" selection-end="1618" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/security-service-webproxy/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="95" selection-start="1506" selection-end="1506" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/security-service-webproxy/src/main/resources/spring/security-service-webproxy-context.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="37" selection-start="1990" selection-end="1990" vertical-scroll-proportion="0.0" />
-      </provider>
-      <provider editor-type-id="com.intellij.spring.perspectives.SpringBeansStructureEditorProvider">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/security-service-sampleservices/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="100" column="33" selection-start="3092" selection-end="3106" vertical-scroll-proportion="0.0" />
@@ -1668,20 +1973,6 @@
     <entry file="jar://$MAVEN_REPOSITORY$/com/unboundid/unboundid-ldapsdk/2.3.1/unboundid-ldapsdk-2.3.1.jar!/com/unboundid/ldap/sdk/LDAPConnectionInternals.class">
       <provider selected="true" editor-type-id="text-editor">
         <state line="55" column="41" selection-start="2523" selection-end="2523" vertical-scroll-proportion="0.82688767" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/security-service-webproxy/src/main/webapp/WEB-INF/web.xml">
-      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="23" selection-start="1053" selection-end="1053" vertical-scroll-proportion="-20.55" />
-      </provider>
-      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
-        <state />
-      </provider>
-      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
-        <state />
       </provider>
     </entry>
     <entry file="uml://SPRING/mappedClass=com.ventyx.security.webservice.soap.SecurityServiceSoapImpl">
@@ -1808,9 +2099,70 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/security-service-webproxy/src/main/webapp/WEB-INF/web.xml">
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="18" selection-start="1048" selection-end="1048" vertical-scroll-proportion="-22.2">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
+        <state />
+      </provider>
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/security-service-sampleservices/src/main/java/com/ventyx/security/webservice/http/BusinessServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="13" selection-start="299" selection-end="299" vertical-scroll-proportion="0.14200477">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/security-service-sampleservices/src/main/resources/spring/security-service-sample-services-context.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="com.intellij.spring.perspectives.SpringBeansStructureEditorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/security-service-sampleservices/src/main/java/com/ventyx/security/webservice/soap/BusinessSoapServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="13" selection-start="297" selection-end="297" vertical-scroll-proportion="0.19976498">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/security-service-sampleservices/src/main/java/com/ventyx/security/webservice/rest/BusinessRestService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="43" column="11" selection-start="1093" selection-end="1099" vertical-scroll-proportion="0.68037605">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/security-service-webproxy/src/main/java/com/ventyx/security/service/proxy/ProxyServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="500" column="37" selection-start="22202" selection-end="22202" vertical-scroll-proportion="0.8759124">
+        <state line="141" column="0" selection-start="5485" selection-end="5485" vertical-scroll-proportion="2.1097853">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="174" column="17" selection-start="2062" selection-end="2062" vertical-scroll-proportion="0.880141">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitattributes">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
